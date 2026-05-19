@@ -35,8 +35,14 @@ kept returning to about how to use LLMs and harnesses well. These are usually
 delivered as asides during a live demo, not as a labeled list — you have to
 recognize them.
 
-For each candidate tip, judge it against these tests, and keep roughly the top
-10–12 that pass:
+Open with one orientation tip that the run-through only implies: a clear map of
+claude.ai vs. Claude Cowork vs. Claude Code — what each can reach on the user's
+machine, what each is best for, and a rule of thumb for choosing. You may go
+modestly beyond what was said on Day 1 here to give the full picture; flag in
+the footer where the doc extends past the session.
+
+Then, for each remaining candidate tip, judge it against these tests, and keep
+roughly the top dozen that pass:
 - It is advice that changes how the reader works, not a UI click-path.
 - The instructors emphasized it, returned to it, or built a whole demo around
   it (e.g. the multiplication / "write the code instead" demo; the cold

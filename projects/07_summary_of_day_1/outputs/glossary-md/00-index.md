@@ -22,6 +22,8 @@ say why it matters here.
 | [Claude](claude.md) | The AI assistant you're talking to. |
 | [Anthropic](anthropic.md) | The company that makes Claude. |
 | [Claude Code](claude-code.md) | A version of Claude that can work with the files on your computer. |
+| [Claude Cowork](claude-cowork.md) | Desktop-app mode where Claude reads and changes files in a folder. |
+| [Project](project.md) | A saved workspace that bundles related chats and (in Cowork) a folder. |
 | [Model (Opus / Sonnet / Haiku)](model.md) | Which version of Claude is doing the thinking — depth vs. speed. |
 | [API](api.md) | Using Claude from software instead of a chat window (foreshadowing). |
 
@@ -32,6 +34,7 @@ say why it matters here.
 | [Large Language Model (LLM)](llm.md) | What Claude is: a next-text predictor. |
 | [Token / Tokenization](token.md) | The chunks of text Claude reads and writes in. |
 | [Tool Call](tool-call.md) | When Claude *does* something (runs code, reads a file) instead of just talking. |
+| [Hallucination](hallucination.md) | A confident, fluent answer that is simply wrong. |
 | [Agent](agent.md) | Claude pursuing a goal over multiple steps. |
 | [Harness](harness.md) | The program around Claude that runs the loop and its tools. |
 
@@ -46,6 +49,7 @@ Read these as a chain — each builds on the last.
 | [Context Rot](context-rot.md) | How answers degrade as the window fills with clutter. |
 | [Context Engineering](context-engineering.md) | Deliberately choosing what goes into the context. |
 | [Memory](memory.md) | Optional saved notes re-read at the start of new conversations. |
+| [Compact](compact.md) | A command that summarizes a long chat so it can continue fresh. |
 
 ## Talking to Claude
 
@@ -65,16 +69,25 @@ Read these as a chain — each builds on the last.
 | [SKILL.md](skill-md.md) | A reusable instruction packet for a specific task. |
 | [Artifact](artifact.md) | A finished thing Claude produces — a doc, chart, or web page. |
 
+## Using Claude safely at Harvard
+
+| Term | One-line gist |
+|---|---|
+| [Data Classification](data-classification.md) | The temporary HUIT plan is a bridge — nothing above Harvard Level 2 until the Anthropic Enterprise agreement is in place. |
+
 ## Suggested teaching order
 
 If introducing these in sequence rather than by lookup:
 
 1. [Claude](claude.md) → [Anthropic](anthropic.md) → [Markdown](markdown.md)
-2. [LLM](llm.md) → [Token](token.md) → [Context](context.md) →
-   [Context Window](context-window.md) → [Context Rot](context-rot.md) →
+2. [LLM](llm.md) → [Token](token.md) → [Hallucination](hallucination.md) →
+   [Context](context.md) → [Context Window](context-window.md) →
+   [Context Rot](context-rot.md) → [Compact](compact.md) →
    [Context Engineering](context-engineering.md)
-3. [Prompt](prompt.md) → [System Prompt](system-prompt.md) → [Memory](memory.md)
+3. [Prompt](prompt.md) → [System Prompt](system-prompt.md) → [Memory](memory.md) →
+   [Data Classification](data-classification.md)
 4. [Artifact](artifact.md) → [HTML](html.md) → [Tool Call](tool-call.md) →
+   [Claude Cowork](claude-cowork.md) → [Project](project.md) →
    [Claude Code](claude-code.md) → [CLAUDE.md](claude-md.md) →
    [SKILL.md](skill-md.md)
 5. [Agent](agent.md) → [Harness](harness.md) → [Model](model.md) → [API](api.md)
