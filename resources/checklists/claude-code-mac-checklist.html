@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Claude Code Setup Checklist — macOS</title>
+<title>Claude Code Setup — macOS</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 13px; color: #111; background: #fff; padding: 1.25in 1in; max-width: 8.5in; }
@@ -12,83 +12,61 @@
   .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: #555; border-bottom: 1px solid #ccc; padding-bottom: 3px; margin-bottom: 8px; }
   .item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 6px; line-height: 1.4; }
   .item input[type="checkbox"] { margin-top: 1px; flex-shrink: 0; width: 13px; height: 13px; }
-  code { font-family: 'SF Mono', 'Menlo', monospace; font-size: 11.5px; background: #f0f0f0; padding: 1px 4px; border-radius: 3px; }
+  code { font-family: 'SF Mono', Menlo, monospace; font-size: 11.5px; background: #f0f0f0; padding: 1px 4px; border-radius: 3px; }
   .note { font-size: 11px; color: #666; margin-left: 21px; margin-top: 1px; margin-bottom: 4px; }
-  .optional { color: #888; font-style: italic; }
-  @media print {
-    body { padding: 0.6in 0.75in; }
-    input[type="checkbox"] { -webkit-appearance: checkbox; }
-  }
+  @media print { body { padding: 0.6in 0.75in; } }
 </style>
 </head>
 <body>
 
 <h1>Claude Code Setup — macOS</h1>
-<p class="subtitle">Open <strong>Terminal</strong> (Cmd+Space → "Terminal"). Run commands one at a time. Estimated time: 15–25 min.</p>
+<p class="subtitle">Open <strong>Terminal</strong> (Cmd+Space → "Terminal"). Run commands one at a time.</p>
 
 <div class="section">
   <div class="section-title">Before you start</div>
-  <div class="item"><input type="checkbox"> Confirm you have a <strong>paid Claude account</strong> (Pro, Max, Team, or Enterprise)</div>
-  <div class="item"><input type="checkbox"> Open Terminal and run <code>brew --version</code></div>
-  <div class="note">If "command not found," paste the Homebrew installer from the full guide, wait 5–10 min, then close &amp; reopen Terminal</div>
-  <div class="item"><input type="checkbox"> Confirm <code>brew --version</code> shows a version number</div>
+  <div class="item"><input type="checkbox"> Run <code>brew --version</code> — if it errors, install Homebrew from the full guide, then reopen Terminal</div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 1 — Install core tools</div>
-  <div class="item"><input type="checkbox"> <code>brew install git</code></div>
-  <div class="item"><input type="checkbox"> <code>brew install node</code></div>
-  <div class="item"><input type="checkbox"> <code>brew install --cask visual-studio-code</code></div>
-  <div class="item"><input type="checkbox"> <code>brew install python@3.13</code></div>
-  <div class="item"><input type="checkbox"> Close Terminal completely (Cmd+Q) and open a fresh window</div>
+  <div class="section-title">Install</div>
+  <div class="item"><input type="checkbox"> Install Git — <code>brew install git</code></div>
+  <div class="item"><input type="checkbox"> Install Node — <code>brew install node</code></div>
+  <div class="item"><input type="checkbox"> Install VS Code — <code>brew install --cask visual-studio-code</code></div>
+  <div class="item"><input type="checkbox"> Install Python — <code>brew install python@3.13</code></div>
+  <div class="item"><input type="checkbox"> Close Terminal (Cmd+Q), reopen, then verify: <code>git --version</code> &nbsp;·&nbsp; <code>node --version</code> &nbsp;·&nbsp; <code>npm --version</code> &nbsp;·&nbsp; <code>python3 --version</code> &nbsp;·&nbsp; <code>code --version</code></div>
+  <div class="note">If <code>code</code> fails: VS Code → Cmd+Shift+P → "Shell Command: Install 'code' command in PATH," reopen Terminal</div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 2 — Verify core tools</div>
-  <div class="item"><input type="checkbox"> <code>git --version</code> → shows a version number</div>
-  <div class="item"><input type="checkbox"> <code>node --version</code> → shows a version number</div>
-  <div class="item"><input type="checkbox"> <code>npm --version</code> → shows a version number</div>
-  <div class="item"><input type="checkbox"> <code>python3 --version</code> → shows a version number</div>
-  <div class="item"><input type="checkbox"> <code>code --version</code> → shows a version number</div>
-  <div class="note">If <code>code</code> fails: open VS Code → Cmd+Shift+P → "Shell Command: Install 'code' command in PATH," then reopen Terminal</div>
-</div>
-
-<div class="section">
-  <div class="section-title">Step 3 — Install Claude Code</div>
+  <div class="section-title">Install Claude Code</div>
   <div class="item"><input type="checkbox"> <code>curl -fsSL https://claude.ai/install.sh | bash</code></div>
-  <div class="item"><input type="checkbox"> Close Terminal (Cmd+Q) and open a fresh window</div>
-  <div class="item"><input type="checkbox"> <code>claude --version</code> → shows a version number</div>
-  <div class="note">If "command not found," add <code>~/.local/bin</code> to PATH — see full guide</div>
-  <div class="item"><input type="checkbox"> <code>claude doctor</code> → no errors</div>
+  <div class="item"><input type="checkbox"> Close Terminal (Cmd+Q), reopen, then <code>claude --version</code></div>
+  <div class="item"><input type="checkbox"> <code>claude doctor</code> — no errors</div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 4 — Clone the workshop repo</div>
-  <div class="item"><input type="checkbox"> <code>cd ~</code></div>
-  <div class="item"><input type="checkbox"> <code>mkdir Development &amp;&amp; cd Development</code></div>
+  <div class="section-title">Clone the repo</div>
+  <div class="item"><input type="checkbox"> <code>cd ~ &amp;&amp; mkdir Development &amp;&amp; cd Development</code></div>
   <div class="item"><input type="checkbox"> <code>git clone https://github.com/bok-learning-lab/claude-code-20260519.git</code></div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 5 — Open in VS Code</div>
-  <div class="item"><input type="checkbox"> <code>cd claude-code-20260519</code></div>
-  <div class="item"><input type="checkbox"> <code>code .</code> → VS Code opens with the project</div>
-  <div class="item"><input type="checkbox"> If prompted "Do you trust the authors?" → click <strong>Yes, I trust the authors</strong></div>
+  <div class="section-title">Open in VS Code</div>
+  <div class="item"><input type="checkbox"> <code>cd claude-code-20260519 &amp;&amp; code .</code></div>
+  <div class="item"><input type="checkbox"> "Do you trust the authors?" → <strong>Yes</strong></div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 6 — Log in to Claude</div>
-  <div class="item"><input type="checkbox"> In VS Code: <strong>Terminal → New Terminal</strong> (or Ctrl+`)</div>
-  <div class="item"><input type="checkbox"> Confirm prompt ends in <code>...claude-code-20260519 %</code></div>
-  <div class="item"><input type="checkbox"> Run <code>claude</code> → follow login prompts, sign in via browser</div>
-  <div class="item"><input type="checkbox"> Back in terminal, type <em>"What files are in this project?"</em> → Claude responds</div>
+  <div class="section-title">Log in to Claude</div>
+  <div class="item"><input type="checkbox"> VS Code: <strong>Terminal → New Terminal</strong> (Ctrl+`)</div>
+  <div class="item"><input type="checkbox"> <code>claude</code> — follow login prompts, sign in via browser</div>
+  <div class="item"><input type="checkbox"> Test: <em>"What files are in this project?"</em></div>
 </div>
 
 <div class="section">
-  <div class="section-title">Step 7 — VS Code extension <span class="optional">(optional)</span></div>
+  <div class="section-title">VS Code extension</div>
   <div class="item"><input type="checkbox"> Cmd+Shift+X → search <strong>Claude Code</strong> → install (publisher: <strong>Anthropic</strong>)</div>
-  <div class="item"><input type="checkbox"> Click the ✱ Spark icon in the Activity Bar → sign in</div>
-  <div class="item"><input type="checkbox"> Send a test message in the panel</div>
+  <div class="item"><input type="checkbox"> Click the ✱ icon in the Activity Bar → sign in → test a message</div>
 </div>
 
 </body>
