@@ -1,13 +1,15 @@
 # Sample session transcript
 
 > **DEMONSTRATIVE SAMPLE — not a real student.** This shows one run of the simulator:
-> persona **Priya (over-confident memorizer)** at **moderate** intensity, against the
-> sample lesson on strong vs. weak acids (`context/sample-microteaching-lesson.md`),
+> the **Everyday Language Student** persona (level 1) at **moderate** intensity — here
+> voiced as "Priya," who hears "strong acid" in its everyday sense (powerful, corrosive,
+> lowest pH) — against the sample lesson on strong vs. weak acids
+> (`context/sample-microteaching-lesson.md`),
 > followed by the debrief. A real Chem 301 submission would be the TF's own transcript
 > plus their lesson plan.
 
 - **TF:** A. Liang (sample)
-- **Persona:** Priya — over-confident memorizer
+- **Persona:** Everyday Language Student (level 1) — voiced here as "Priya," who reads "strong" by its everyday meaning
 - **Topic:** Strong vs. weak acids (strength ≠ concentration)
 - **Intensity:** moderate
 
@@ -92,8 +94,9 @@ might lose the point in the log math.
 
 ### 5. One thing to try next
 Front-load the "two knobs" language so the calculation *confirms* a distinction rather
-than *introducing* it. Then re-run against **Marcus** — he'll stall on "what does the
-double arrow mean," which this lesson currently assumes rather than explains.
+than *introducing* it. Then re-run against the **Everyday Language Student at level 2** —
+they'll stall on "what does the double arrow mean," which this lesson currently assumes
+rather than explains.
 
 You ran a genuinely good move under pressure (the "are those the same thing?" pivot) —
 build the lesson around making that move on purpose every time.

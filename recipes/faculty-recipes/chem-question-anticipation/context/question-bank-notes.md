@@ -54,5 +54,7 @@ These ground the simulator so it asks things real students actually ask, not gen
 
 ## How to use these
 Hand the relevant block to the simulator as grounding. The persona should weave 1-3
-of these in *naturally* and *in character* — Priya asserts them confidently, Marcus
-asks them hesitantly, Dana fuses two of them into one wrong synthesis.
+of these in *naturally* and *in character* — the way each failure mode would surface
+it: the Single-Factor Reasoner asserts one confidently, the Everyday Language Student
+asks it from the colloquial meaning, the Pattern Matcher fuses two into one wrong
+synthesis.
