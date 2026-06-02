@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+  Mammalian Fatty Acid Synthase (FAS) — labeled catalytic-domain cartoon.
+  Built for Chem 27, Lecture 13 ("Assembly Line Enzymology: Fatty Acid Biosynthesis I").
+
+  PURPOSE: replaces the old FAS cartoon that was MISSING the termination domain.
+  This version shows ALL domains, every one labeled, INCLUDING TE (thioesterase),
+  the termination/release domain.
+
+  EXPORT TO PNG FOR SLIDES: open this file in a browser and screenshot the figure
+  card (or use the browser's "capture node screenshot" on the .figure element) at
+  ~2x zoom for a clean, moderate-resolution raster to paste into PowerPoint.
+  Domain order and naming follow the lecture (slide 11 bar: KS-MAT-DH-ER-KR-ACP-TE;
+  mechanism slides label the transferase "AT"). See ../context/fas-domains.md.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mammalian Fatty Acid Synthase — Catalytic Domains</title>
+<style>
+  :root {
+    --ks:  #2196c4;  /* keto synthase   — blue   */
+    --at:  #1f8a8a;  /* acyl transferase— teal   */
+    --dh:  #2e9e4f;  /* dehydratase     — green  */
+    --er:  #d23b3b;  /* enoyl reductase — red    */
+    --kr:  #b6c235;  /* ketoreductase   — yellow-green */
+    --acp: #a23a86;  /* acyl carrier    — magenta*/
+    --te:  #6a4ec2;  /* thioesterase    — purple */
+    --ink: #1c2330;
+    --muted: #5c6675;
+  }
+  html { background: #eef1f5; }
+  body {
+    margin: 0; padding: 28px;
+    font-family: "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+    color: var(--ink);
+    display: flex; justify-content: center;
+  }
+  .figure {
+    background: #ffffff;
+    border: 1px solid #d8dee7;
+    border-radius: 12px;
+    padding: 28px 34px 24px;
+    max-width: 940px;
+    box-shadow: 0 2px 10px rgba(20,35,48,.06);
+  }
+  .title { font-size: 22px; font-weight: 700; margin: 0 0 2px; }
+  .subtitle { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+  svg { display: block; width: 100%; height: auto; }
+
+  .phase-band { font: 600 12px/1 "Helvetica Neue", Arial, sans-serif; }
+  .phase-label { font: 700 12.5px "Helvetica Neue", Arial, sans-serif; letter-spacing:.04em; }
+  .dom-abbr  { font: 800 16px "Helvetica Neue", Arial, sans-serif; fill:#fff; }
+  .dom-name  { font: 600 11px "Helvetica Neue", Arial, sans-serif; fill: var(--ink); }
+  .flow-note { font: italic 11.5px "Helvetica Neue", Arial, sans-serif; fill: var(--muted); }
+
+  .legend {
+    margin-top: 18px; border-top: 1px solid #e6eaf0; padding-top: 14px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 6px 28px;
+    font-size: 12px;
+  }
+  .legend .row { display: flex; gap: 8px; align-items: baseline; }
+  .legend .sw {
+    flex: 0 0 auto; width: 26px; text-align: center; border-radius: 3px;
+    color: #fff; font-weight: 800; font-size: 11px; padding: 2px 0; line-height: 1.3;
+  }
+  .legend b { white-space: nowrap; }
+  .legend .fn { color: var(--muted); }
+  .footnote { margin-top: 12px; font-size: 11px; color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="figure">
+    <p class="title">Mammalian Fatty Acid Synthase (FAS) — Catalytic Domains</p>
+    <p class="subtitle">A single multifunctional assembly-line enzyme (homodimer; primary product: palmitate, C16). Each domain runs one step of the cycle.</p>
+
+    <!-- ===== Cartoon: linear "beads-on-a-string" assembly line ===== -->
+    <svg viewBox="0 0 880 230" role="img"
+         aria-label="Linear cartoon of FAS domains KS, AT/MAT, DH, ER, KR, ACP, TE in biosynthetic order.">
+
+      <!-- phase brackets -->
+      <g class="phase-band">
+        <!-- Elongation bracket: AT/MAT, ACP, KS (drawn over KS..ACP span) -->
+        <line x1="40"  y1="34" x2="700" y2="34" stroke="#9aa6b6" stroke-width="1.5"/>
+        <line x1="40"  y1="34" x2="40"  y2="44" stroke="#9aa6b6" stroke-width="1.5"/>
+        <line x1="700" y1="34" x2="700" y2="44" stroke="#9aa6b6" stroke-width="1.5"/>
+        <text x="370" y="26" text-anchor="middle" class="phase-label" fill="#5c6675">ELONGATION + TAILORING (repeats ~7 cycles)</text>
+
+        <!-- Termination bracket over TE -->
+        <line x1="724" y1="34" x2="836" y2="34" stroke="#6a4ec2" stroke-width="1.5"/>
+        <line x1="724" y1="34" x2="724" y2="44" stroke="#6a4ec2" stroke-width="1.5"/>
+        <line x1="836" y1="34" x2="836" y2="44" stroke="#6a4ec2" stroke-width="1.5"/>
+        <text x="780" y="26" text-anchor="middle" class="phase-label" fill="#6a4ec2">TERMINATION</text>
+      </g>
+
+      <!-- connecting polypeptide linker (reads as one protein chain) -->
+      <line x1="40" y1="92" x2="840" y2="92" stroke="#c4ccd6" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- domain blocks: KS - AT(MAT) - DH - ER - KR - ACP - TE -->
+      <!-- each: rounded rect (bead) on the string + abbreviation + full name below -->
+      <g>
+        <!-- KS -->
+        <rect x="40"  y="62" width="86" height="60" rx="11" fill="var(--ks)"/>
+        <text x="83"  y="98"  text-anchor="middle" class="dom-abbr">KS</text>
+        <text x="83"  y="140" text-anchor="middle" class="dom-name">Ketoacyl</text>
+        <text x="83"  y="154" text-anchor="middle" class="dom-name">synthase</text>
+
+        <!-- AT (MAT) -->
+        <rect x="155" y="62" width="86" height="60" rx="11" fill="var(--at)"/>
+        <text x="198" y="98"  text-anchor="middle" class="dom-abbr">AT</text>
+        <text x="198" y="140" text-anchor="middle" class="dom-name">Acyl transferase</text>
+        <text x="198" y="154" text-anchor="middle" class="dom-name">(MAT)</text>
+
+        <!-- DH -->
+        <rect x="270" y="62" width="86" height="60" rx="11" fill="var(--dh)"/>
+        <text x="313" y="98"  text-anchor="middle" class="dom-abbr">DH</text>
+        <text x="313" y="140" text-anchor="middle" class="dom-name">Dehydratase</text>
+
+        <!-- ER -->
+        <rect x="385" y="62" width="86" height="60" rx="11" fill="var(--er)"/>
+        <text x="428" y="98"  text-anchor="middle" class="dom-abbr">ER</text>
+        <text x="428" y="140" text-anchor="middle" class="dom-name">Enoyl reductase</text>
+
+        <!-- KR -->
+        <rect x="500" y="62" width="86" height="60" rx="11" fill="var(--kr)"/>
+        <text x="543" y="98"  text-anchor="middle" class="dom-abbr" fill="#2b3010">KR</text>
+        <text x="543" y="140" text-anchor="middle" class="dom-name">Ketoreductase</text>
+
+        <!-- ACP -->
+        <rect x="615" y="62" width="86" height="60" rx="11" fill="var(--acp)"/>
+        <text x="658" y="98"  text-anchor="middle" class="dom-abbr">ACP</text>
+        <text x="658" y="140" text-anchor="middle" class="dom-name">Acyl carrier</text>
+        <text x="658" y="154" text-anchor="middle" class="dom-name">protein</text>
+
+        <!-- TE  (the previously MISSING termination domain) -->
+        <rect x="730" y="62" width="100" height="60" rx="11" fill="var(--te)"
+              stroke="#3c2b86" stroke-width="2"/>
+        <text x="780" y="98"  text-anchor="middle" class="dom-abbr">TE</text>
+        <text x="780" y="140" text-anchor="middle" class="dom-name">Thioesterase</text>
+        <text x="780" y="154" text-anchor="middle" class="dom-name">(termination)</text>
+      </g>
+
+      <!-- ACP phosphopantetheinyl thiol arm (carries the chain) -->
+      <path d="M658 62 q14 -16 0 -30" fill="none" stroke="#a23a86" stroke-width="2.5"/>
+      <circle cx="658" cy="28" r="4" fill="#a23a86"/>
+      <text x="672" y="31" class="flow-note" text-anchor="start">~SH arm carries the growing chain</text>
+
+      <!-- release arrow off TE -> palmitate -->
+      <path d="M834 92 h22" fill="none" stroke="#6a4ec2" stroke-width="2.5" marker-end="url(#arrow)"/>
+      <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#6a4ec2"/>
+        </marker>
+      </defs>
+
+      <!-- flow caption -->
+      <text x="40"  y="196" class="flow-note">AT loads units → KS condenses (+2C, Claisen) → KR · DH · ER reduce the new ketone to –CH&#8322;– → repeat → TE releases palmitate.</text>
+    </svg>
+
+    <!-- ===== Legend ===== -->
+    <div class="legend">
+      <div class="row"><span class="sw" style="background:var(--ks)">KS</span><span><b>Ketoacyl synthase</b> — <span class="fn">Claisen condensation; adds 2 carbons (elongation).</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--at)">AT</span><span><b>Acyl transferase (MAT)</b> — <span class="fn">selects acetyl-/malonyl-CoA, loads it onto ACP.</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--dh)">DH</span><span><b>Dehydratase</b> — <span class="fn">eliminates the –OH as water to form the enoyl thioester.</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--er)">ER</span><span><b>Enoyl reductase</b> — <span class="fn">reduces the α,β-double bond (NADPH).</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--kr);color:#2b3010">KR</span><span><b>Ketoreductase</b> — <span class="fn">reduces the new β-ketone to a hydroxyl (NADPH).</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--acp)">ACP</span><span><b>Acyl carrier protein</b> — <span class="fn">shuttles the growing chain between domains.</span></span></div>
+      <div class="row"><span class="sw" style="background:var(--te)">TE</span><span><b>Thioesterase</b> — <span class="fn"><strong>termination:</strong> hydrolyzes the thioester to release the finished palmitate.</span></span></div>
+    </div>
+
+    <p class="footnote">Domain order &amp; naming follow Chem 27 Lecture 13 (linear domain bar: KS–MAT–DH–ER–KR–ACP–TE; transferase shown as AT/MAT). TE = the termination domain absent from the previous cartoon.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,362 @@
+piece,big5,race,religion,count,demvote,issues,partisan_score,ticket_splitters,percent,support,repcomp,demcomp
+Evangelical White Straight No degree Rural Married women,White evangelicals,White,Evangelical,6096.560615,10.2539896,0.391052034,16.6385213,5.276193132,2.964677542,Republican,2.471399038,0.493278504
+Evangelical White Straight No degree Rural Married men,White evangelicals,White,Evangelical,5430.768531,7.902497616,0.317121962,12.22646326,4.126988292,2.640911576,Republican,2.318021492,0.322890083
+Evangelical White Straight No degree Rural Unmarried women,White evangelicals,White,Evangelical,3907.021629,18.30789026,0.452743033,24.61138341,6.772358745,1.899933423,Republican,1.432333524,0.467599899
+Evangelical White Straight No degree Suburban Married women,White evangelicals,White,Evangelical,3004.513379,14.003079,0.401090734,17.32348483,5.710194805,1.461055487,Republican,1.207949762,0.253105726
+Evangelical White Straight No degree Suburban Married men,White evangelicals,White,Evangelical,2947.348123,11.9634891,0.33784605,15.54387539,5.83094308,1.433256772,Republican,1.210473125,0.222783647
+Evangelical White Straight College degree Suburban Married men,White evangelicals,White,Evangelical,2479.546072,14.69269095,0.328149744,16.66296035,5.13788462,1.205770765,Republican,1.00485366,0.200917104
+Evangelical White Straight No degree Rural Unmarried men,White evangelicals,White,Evangelical,2457.94209,13.19663207,0.410677659,21.72167152,4.385418227,1.195265031,Republican,0.935633487,0.259631544
+Evangelical White Straight College degree Rural Married women,White evangelicals,White,Evangelical,2300.060483,14.78655439,0.389361999,16.72792393,5.86152491,1.118489274,Republican,0.931389239,0.187100035
+Evangelical White Straight College degree Rural Married men,White evangelicals,White,Evangelical,2221.802141,10.07418352,0.297373205,12.06222556,4.465553371,1.080433268,Republican,0.95010897,0.130324298
+Evangelical White Straight No degree Suburban Unmarried women,White evangelicals,White,Evangelical,2070.8131,23.93804974,0.475612402,27.56021925,6.732029156,1.007009276,Republican,0.729475312,0.277533964
+Evangelical White Straight College degree Suburban Married women,White evangelicals,White,Evangelical,2000.44347,18.05013907,0.422289089,19.73259129,6.356490666,0.972789447,Republican,0.780832881,0.191956566
+Catholic White Straight No degree Suburban Married men,Mosaic middle,White,Catholic,1772.475397,29.71031252,0.451294178,31.32913869,9.912395914,0.86193156,Mixed,0.591895826,0.270035734
+Catholic White Straight No degree Suburban Married women,Mosaic middle,White,Catholic,1764.850183,36.19985007,0.515400801,37.74733994,9.963679838,0.858223518,Mixed,0.534266969,0.323956549
+Catholic White Straight College degree Suburban Married men,Mosaic middle,White,Catholic,1735.429291,39.19976659,0.488617211,39.15039874,8.20873943,0.843916524,Mixed,0.51351984,0.330396684
+Protestant White Straight No degree Rural Married women,Mosaic middle,White,Protestant,1705.530984,31.3350852,0.511976675,35.32238234,7.740563313,0.829377369,Mixed,0.536421524,0.292955845
+Protestant White Straight No degree Rural Married men,Mosaic middle,White,Protestant,1601.91422,19.25964951,0.409324962,22.92748506,7.065405037,0.778989895,Republican,0.600387103,0.178602792
+Catholic White Straight College degree Suburban Married women,Mosaic middle,White,Catholic,1598.811214,42.86335393,0.576100717,43.25445915,7.63832539,0.777480944,Mixed,0.441185767,0.336295177
+Evangelical White Straight No degree Urban Unmarried women,White evangelicals,White,Evangelical,1466.248239,29.95186655,0.488675876,33.90294592,9.241511182,0.713017306,Mixed,0.471283434,0.241733872
+Catholic White Straight No degree Rural Married women,Mosaic middle,White,Catholic,1456.005909,33.15753759,0.494734543,36.38806761,10.22285155,0.708036595,Mixed,0.45039576,0.257640835
+Evangelical White Straight No degree Suburban Unmarried men,White evangelicals,White,Evangelical,1449.303801,15.01661088,0.419192594,19.10241499,3.177129187,0.704777448,Republican,0.570147935,0.134629513
+Nothing in particular White Straight No degree Rural Married women,Mosaic middle,White,Nothing in particular,1417.291624,42.29975748,0.550697461,43.27890717,6.414328105,0.689210346,Mixed,0.39092764,0.298282706
+Protestant White Straight College degree Suburban Married men,Mosaic middle,White,Protestant,1405.192055,41.39190576,0.512635175,42.33183413,7.998942266,0.683326483,Mixed,0.39406185,0.289264634
+Evangelical White Straight No degree Urban Married men,White evangelicals,White,Evangelical,1394.169378,15.41731034,0.393432903,22.34129523,6.966815581,0.6779663,Republican,0.526499848,0.151466453
+Nothing in particular White Straight No degree Rural Married men,Mosaic middle,White,Nothing in particular,1381.115273,32.66803367,0.482586398,35.32442067,6.661018914,0.67161826,Mixed,0.434373,0.237245259
+Evangelical White Straight No degree Urban Married women,White evangelicals,White,Evangelical,1381.091129,21.73741215,0.439745154,25.10331974,8.775967014,0.671606519,Republican,0.503010987,0.168595532
+Evangelical Black Straight No degree Urban Unmarried women,Black people,Black,Evangelical,1347.001673,93.00859113,0.647748025,85.90172522,3.530609291,0.655029263,Democratic,0.092347825,0.562681438
+Protestant White Straight No degree Rural Unmarried women,Mosaic middle,White,Protestant,1311.619013,39.1988108,0.55628485,41.10543982,6.312373779,0.63782314,Mixed,0.375643133,0.262180007
+Catholic White Straight No degree Suburban Unmarried women,Mosaic middle,White,Catholic,1295.507524,45.82222547,0.57158684,46.71181371,8.38132606,0.629988333,Mixed,0.335709357,0.294278977
+Catholic White Straight No degree Rural Married men,Mosaic middle,White,Catholic,1270.119371,22.7700057,0.413229266,25.99513961,7.136706638,0.617642407,Republican,0.457085401,0.160557006
+Protestant White Straight College degree Suburban Married women,Mosaic middle,White,Protestant,1254.769689,53.99664445,0.630595088,53.84741308,7.582994179,0.610178058,Mixed,0.281612959,0.328565099
+Nothing in particular White Straight No degree Rural Unmarried women,Mosaic middle,White,Nothing in particular,1214.124304,50.08945304,0.612224268,50.22240283,4.615355277,0.59041274,Mixed,0.293893275,0.296519465
+Evangelical White Straight No degree Urban Unmarried men,White evangelicals,White,Evangelical,1211.758894,27.49297696,0.462651398,29.84312602,5.546805655,0.589262472,Republican,0.41340813,0.175854342
+Protestant White Straight No degree Suburban Married women,Mosaic middle,White,Protestant,1191.814162,35.02111325,0.538476017,37.90624628,8.758318294,0.57956361,Mixed,0.359872801,0.219690809
+Evangelical White Straight College degree Urban Married men,White evangelicals,White,Evangelical,1154.32856,37.39975298,0.4651402,39.28762342,7.687955797,0.561334853,Mixed,0.34079973,0.220535123
+Nothing in particular White Straight No degree Rural Unmarried men,Mosaic middle,White,Nothing in particular,1117.998162,39.9665443,0.547357989,43.42817802,4.755298007,0.543667856,Mixed,0.307562812,0.236105045
+Protestant White Straight No degree Suburban Married men,Mosaic middle,White,Protestant,1114.356827,29.68999036,0.435519736,30.31942806,7.643781504,0.541897123,Mixed,0.377597015,0.164300108
+Protestant White Straight College degree Rural Married women,Mosaic middle,White,Protestant,1101.145841,44.95392551,0.599321912,47.33829932,8.377035338,0.535472794,Mixed,0.28198908,0.253483714
+Protestant White Straight No degree Suburban Unmarried women,Mosaic middle,White,Protestant,1099.624827,46.49479619,0.575013637,48.19010167,9.229332153,0.534733145,Mixed,0.277044699,0.257688446
+Nothing in particular White Straight No degree Suburban Married women,Mosaic middle,White,Nothing in particular,1017.861481,55.00388204,0.595224107,50.55601805,6.904482367,0.494972701,Mixed,0.244734213,0.250238488
+Nothing in particular White Straight No degree Suburban Married men,Mosaic middle,White,Nothing in particular,1003.648034,41.81880783,0.550764813,43.39451923,6.341433099,0.488060888,Mixed,0.276269212,0.211791676
+Catholic White Straight College degree Suburban Unmarried women,Mosaic middle,White,Catholic,984.1336563,53.32679251,0.620586026,54.21423098,6.611849923,0.478571302,Mixed,0.219117551,0.259453751
+Evangelical White Straight College degree Rural Unmarried women,White evangelicals,White,Evangelical,981.2897028,23.74251397,0.455806617,25.94850335,7.730518292,0.477188324,Republican,0.353365096,0.123823228
+Protestant White Straight College degree Rural Married men,Mosaic middle,White,Protestant,978.4985484,36.61817992,0.482217843,38.88947696,7.668707039,0.475831023,Mixed,0.290782827,0.185048196
+Nothing in particular White Straight No degree Suburban Unmarried women,Mosaic middle,White,Nothing in particular,967.5493635,63.8168754,0.647106515,60.2297438,5.928224911,0.470506577,Mixed,0.187121671,0.283384906
+Nothing in particular White Straight No degree Suburban Unmarried men,Mosaic middle,White,Nothing in particular,964.8287523,43.84750316,0.558288199,46.17082742,5.479611171,0.46918358,Mixed,0.252557639,0.216625941
+Evangelical White Straight College degree Suburban Unmarried women,White evangelicals,White,Evangelical,953.2896145,29.90574336,0.487062085,31.20770667,9.628602549,0.463572248,Mixed,0.318901981,0.144670267
+Protestant White Straight No degree Rural Unmarried men,Mosaic middle,White,Protestant,928.892948,23.8544911,0.472249337,27.67140999,5.372210458,0.451708469,Republican,0.326714367,0.124994102
+Catholic White Straight No degree Rural Unmarried women,Mosaic middle,White,Catholic,925.7309417,40.41414543,0.541169546,42.688905,7.846617361,0.450170827,Mixed,0.25799783,0.192172997
+Catholic White Straight College degree Rural Married women,Mosaic middle,White,Catholic,899.5477582,38.02462246,0.53794662,37.47577997,8.068048743,0.437438288,Mixed,0.273504878,0.16393341
+Catholic White Straight No degree Suburban Unmarried men,Mosaic middle,White,Catholic,894.1957993,33.91595738,0.50983023,35.38690583,7.115831189,0.4348357,Mixed,0.280960801,0.1538749
+Nothing in particular White Straight College degree Suburban Married women,Mosaic middle,White,Nothing in particular,890.0134621,69.54237131,0.71544087,69.24279948,5.924917905,0.432801884,Mixed,0.133117743,0.299684141
+Evangelical White Straight College degree Urban Married women,White evangelicals,White,Evangelical,869.6899238,29.9969973,0.474941143,32.01714164,6.627701577,0.422918814,Mixed,0.287512298,0.135406516
+Atheist White Straight College degree Suburban Married men,Secular,White,Atheist,867.8472162,88.01722337,0.823173459,86.69427066,2.861273273,0.42202273,Democratic,0.056153202,0.365869527
+Protestant White Straight College degree Suburban Unmarried women,Mosaic middle,White,Protestant,843.7102085,59.34402828,0.690148705,60.95477484,8.751764526,0.410285219,Mixed,0.160196788,0.250088431
+Evangelical Black Straight No degree Suburban Unmarried women,Black people,Black,Evangelical,831.1716106,90.36919679,0.660715026,83.22684758,2.815100956,0.404187863,Democratic,0.067795046,0.336392817
+Evangelical Black Straight No degree Urban Unmarried men,Black people,Black,Evangelical,806.9849254,82.1847191,0.621120098,77.17553619,4.331378681,0.392426195,Democratic,0.089569175,0.30285702
+Catholic White Straight College degree Rural Married men,Mosaic middle,White,Catholic,802.1562329,31.14770757,0.437559231,34.2964001,7.788452771,0.390078065,Mixed,0.256295331,0.133782734
+Nothing in particular White Straight College degree Suburban Married men,Mosaic middle,White,Nothing in particular,780.1234467,63.74011236,0.644815714,62.38800018,5.7438838,0.37936381,Mixed,0.142686316,0.236677494
+Catholic White Straight College degree Urban Married men,Mosaic middle,White,Catholic,779.4294858,48.97273488,0.527631479,51.40120853,9.487932739,0.379026346,Mixed,0.184202223,0.194824122
+Catholic White Straight No degree Urban Unmarried women,Mosaic middle,White,Catholic,779.3741948,52.90676125,0.577485336,53.56838181,10.15689231,0.378999459,Mixed,0.175975582,0.203023877
+Protestant White Straight No degree Suburban Unmarried men,Mosaic middle,White,Protestant,720.8407205,33.734217,0.495554885,36.45262601,8.18315729,0.350535397,Mixed,0.22275604,0.127779357
+Catholic White Straight No degree Urban Married men,Mosaic middle,White,Catholic,720.3943417,37.08467385,0.489600355,38.65647785,12.47416596,0.350318329,Mixed,0.214897602,0.135420727
+Protestant White Straight No degree Urban Unmarried women,Mosaic middle,White,Protestant,716.5822269,55.82639464,0.608540603,54.78522478,9.978862881,0.348464547,Mixed,0.157557462,0.190907086
+Nothing in particular White Straight No degree Urban Unmarried women,Mosaic middle,White,Nothing in particular,711.5692963,64.75552678,0.647719884,58.98364922,5.244567481,0.346026825,Mixed,0.141927576,0.204099249
+Catholic White Straight No degree Urban Married women,Mosaic middle,White,Catholic,704.9317352,43.32807476,0.537321152,45.69352223,14.03627636,0.342799066,Mixed,0.186162098,0.156636967
+Catholic White Straight No degree Rural Unmarried men,Mosaic middle,White,Catholic,701.3713613,30.92739943,0.468920371,32.3790684,5.800809078,0.341067703,Mixed,0.230633158,0.110434545
+Catholic White Straight College degree Suburban Unmarried men,Mosaic middle,White,Catholic,695.0855379,39.62947614,0.503409567,38.61283708,13.34388928,0.338010989,Mixed,0.207495357,0.130515633
+Protestant White Straight College degree Rural Unmarried women,Mosaic middle,White,Protestant,670.0697731,55.41900097,0.642443123,56.9677865,9.116436236,0.325846151,Mixed,0.140218811,0.185627339
+Evangelical Black Straight No degree Rural Unmarried women,Black people,Black,Evangelical,665.9420519,84.43961412,0.633012959,80.35330856,3.445668349,0.323838894,Democratic,0.063623628,0.260215266
+Nothing in particular White Straight College degree Suburban Unmarried women,Mosaic middle,White,Nothing in particular,662.2326725,76.54270465,0.742369274,74.43492639,5.876780372,0.322035071,Democratic,0.082328503,0.239706568
+Nothing in particular White Straight College degree Rural Married women,Mosaic middle,White,Nothing in particular,653.7088404,64.62633766,0.687320102,61.62333138,6.15472509,0.317890043,Mixed,0.121995609,0.195894435
+Nothing in particular White Straight No degree Urban Unmarried men,Mosaic middle,White,Nothing in particular,631.6516494,49.82681762,0.594193142,51.23127938,4.916206842,0.30716392,Mixed,0.149799914,0.157364006
+Catholic White Straight College degree Urban Married women,Mosaic middle,White,Catholic,615.1410189,48.37283942,0.616225184,48.97917269,8.657542348,0.299135017,Mixed,0.152621161,0.146513857
+Agnostic White Straight College degree Suburban Married men,Secular,White,Agnostic,608.911642,69.60412871,0.724924569,69.79148498,6.774783529,0.296105753,Mixed,0.089449151,0.206656602
+Catholic White Straight No degree Urban Unmarried men,Mosaic middle,White,Catholic,608.6540989,43.10538153,0.54556975,41.82645378,8.610640093,0.295980513,Mixed,0.17218236,0.123798152
+Evangelical White Straight College degree Suburban Unmarried men,White evangelicals,White,Evangelical,586.6332671,17.94661425,0.369878193,19.75886774,9.339222625,0.285272071,Republican,0.22890554,0.056366531
+Evangelical White Straight College degree Urban Unmarried women,White evangelicals,White,Evangelical,585.259972,27.05773484,0.494391895,28.2334,5.336573042,0.284604256,Republican,0.204250798,0.080353458
+Catholic White Straight College degree Urban Unmarried women,Mosaic middle,White,Catholic,584.9672043,62.081693,0.674174786,59.16837174,9.729212596,0.284461886,Mixed,0.11615042,0.168311466
+Jewish White Straight College degree Suburban Married men,Mosaic middle,White,Jewish,567.4594708,66.26703051,0.656718485,64.94905444,9.469219197,0.275948105,Mixed,0.09672242,0.179225685
+Evangelical Black Straight No degree Urban Married men,Black people,Black,Evangelical,560.557568,80.56732284,0.619694739,81.24399382,5.319012218,0.2725918,Democratic,0.051127335,0.221464465
+Protestant White Straight No degree Urban Married women,Mosaic middle,White,Protestant,554.073096,39.53160287,0.543997269,42.13175493,11.20843156,0.269438486,Mixed,0.155919324,0.113519163
+Jewish White Straight College degree Suburban Married women,Mosaic middle,White,Jewish,538.5864176,72.26058342,0.730616373,71.40336675,6.948950953,0.261907518,Democratic,0.074896732,0.187010785
+Other White Straight College degree Suburban Married men,Mosaic middle,White,Other,534.9051999,46.06467003,0.577868377,46.42496725,7.576531796,0.26011739,Mixed,0.139357977,0.120759413
+Nothing in particular White Straight College degree Urban Unmarried women,Mosaic middle,White,Nothing in particular,533.954988,83.00305903,0.789107402,81.05872367,6.706890924,0.259655314,Democratic,0.049182031,0.210473284
+Evangelical White Straight College degree Rural Unmarried men,White evangelicals,White,Evangelical,528.8481605,14.67705203,0.349053875,17.31885946,3.889489321,0.257171931,Republican,0.212632686,0.044539245
+Protestant White Straight College degree Urban Married men,Mosaic middle,White,Protestant,526.9293513,49.71661014,0.587246988,51.86861253,10.26216556,0.256238839,Mixed,0.123331308,0.132907531
+Protestant White Straight No degree Urban Married men,Mosaic middle,White,Protestant,521.1228758,28.65800949,0.468183333,33.28545704,6.906125809,0.253415226,Mixed,0.16906481,0.084350416
+Catholic Hispanic Straight No degree Urban Unmarried men,Mosaic middle,Hispanic,Catholic,520.8936109,76.4723105,0.627933172,70.74954298,5.575128141,0.253303738,Democratic,0.074092501,0.179211237
+Nothing in particular Black Straight No degree Urban Unmarried men,Black people,Black,Nothing in particular,518.5302388,86.68405202,0.656867207,71.37201429,4.423281944,0.252154461,Democratic,0.072186743,0.179967718
+Protestant Black Straight No degree Urban Unmarried women,Black people,Black,Protestant,517.020012,97.22779437,0.68258755,91.02334446,2.213605524,0.251420057,Democratic,0.022569112,0.228850945
+Other White Straight No degree Rural Married women,Mosaic middle,White,Other,516.4371382,32.77982856,0.517286106,36.73582782,7.212960108,0.251136613,Mixed,0.158879499,0.092257114
+Evangelical Black Straight No degree Urban Married women,Black people,Black,Evangelical,512.5174535,95.04198797,0.659756481,90.32513858,2.12853093,0.249230522,Democratic,0.024112708,0.225117814
+Catholic Hispanic Straight No degree Suburban Married women,Mosaic middle,Hispanic,Catholic,508.6905041,54.4326824,0.594839916,59.80015319,8.182819044,0.247369527,Mixed,0.099442171,0.147927356
+Nothing in particular White Straight No degree Urban Married men,Mosaic middle,White,Nothing in particular,502.4500768,49.34897698,0.562699406,49.76152684,7.910894719,0.244334889,Mixed,0.122750117,0.121584771
+Evangelical Black Straight No degree Suburban Married men,Black people,Black,Evangelical,498.4202045,80.06045183,0.632275267,76.34581772,5.14977274,0.242375215,Democratic,0.057331875,0.185043339
+Catholic Hispanic Straight No degree Urban Unmarried women,Mosaic middle,Hispanic,Catholic,496.7568292,83.75969052,0.66351817,76.71990628,5.086335413,0.241566337,Democratic,0.05623687,0.185329467
+Atheist White Straight College degree Suburban Married women,Secular,White,Atheist,493.9718263,92.86425935,0.858953107,91.3755172,2.375643287,0.240212026,Democratic,0.020717045,0.219494982
+Nothing in particular White Straight College degree Rural Married men,Mosaic middle,White,Nothing in particular,492.2231555,52.87169444,0.584738985,53.1754278,9.022238708,0.239361671,Mixed,0.112080078,0.127281592
+Protestant White Straight College degree Urban Unmarried women,Mosaic middle,White,Protestant,486.1784111,69.4223818,0.712208934,68.26683511,7.974937261,0.236422191,Mixed,0.075024244,0.161397947
+Protestant White Straight College degree Suburban Unmarried men,Mosaic middle,White,Protestant,484.5614781,35.99211678,0.49826957,37.19491382,7.776591555,0.235635897,Mixed,0.147991328,0.087644569
+Protestant White Straight College degree Urban Married women,Mosaic middle,White,Protestant,483.3487059,62.55809463,0.696758691,62.89382237,7.446977232,0.235046142,Mixed,0.087216639,0.147829503
+Nothing in particular White Straight College degree Rural Unmarried women,Mosaic middle,White,Nothing in particular,481.6999573,75.76882265,0.729686957,72.83676958,4.93998736,0.234244377,Democratic,0.06362834,0.170616037
+Catholic Hispanic Straight No degree Suburban Married men,Mosaic middle,Hispanic,Catholic,477.3136967,49.50586388,0.544274408,51.82892293,6.723827055,0.232111396,Mixed,0.11181056,0.120300837
+Other White Straight College degree Suburban Married women,Mosaic middle,White,Other,477.169118,54.11387444,0.633326686,52.18757392,8.127941898,0.23204109,Mixed,0.110944474,0.121096615
+Agnostic White Straight College degree Suburban Married women,Secular,White,Agnostic,476.1873496,89.20456488,0.841257194,86.80723513,2.993733083,0.231563668,Democratic,0.03054965,0.201014018
+Catholic White Straight College degree Rural Unmarried women,Mosaic middle,White,Catholic,475.5870659,48.29475293,0.6029362,49.14147791,9.493894985,0.231271758,Mixed,0.117621398,0.11365036
+Atheist White Straight College degree Urban Married men,Secular,White,Atheist,474.2352486,92.20688837,0.84663781,90.30934949,2.735551111,0.230614387,Democratic,0.022348034,0.208266353
+Atheist White Straight No degree Suburban Married men,Secular,White,Atheist,474.0404655,78.01665433,0.723236018,74.5709123,3.137377437,0.230519667,Democratic,0.058619048,0.171900619
+Agnostic White Straight No degree Suburban Unmarried men,Secular,White,Agnostic,472.2506179,66.64539729,0.658071105,61.99638911,7.075392927,0.229649287,Mixed,0.087275022,0.142374266
+Evangelical Hispanic Straight No degree Suburban Married women,Mosaic middle,Hispanic,Evangelical,470.9838237,32.44058676,0.498749953,40.43593108,8.450830201,0.229033262,Mixed,0.13642153,0.092611732
+Evangelical Black Straight No degree Suburban Unmarried men,Black people,Black,Evangelical,467.9655974,73.12267892,0.620285102,71.56280202,4.095565415,0.227565538,Democratic,0.064713263,0.162852275
+Nothing in particular White Straight No degree Urban Married women,Mosaic middle,White,Nothing in particular,457.4867747,61.58643271,0.625263437,57.54809996,7.737576265,0.222469824,Mixed,0.094442667,0.128027157
+Atheist White Straight No degree Suburban Unmarried men,Secular,White,Atheist,454.1104066,84.04297547,0.730213067,72.97051746,2.790921966,0.22082794,Democratic,0.05968865,0.161139291
+Evangelical Black Straight College degree Suburban Unmarried women,Black people,Black,Evangelical,452.2129484,87.16847016,0.698943844,84.17310008,4.296317393,0.219905231,Democratic,0.034804181,0.18510105
+Evangelical Black Straight No degree Suburban Married women,Black people,Black,Evangelical,451.6738137,88.81953577,0.659798443,82.89331925,2.892756499,0.219643057,Democratic,0.037573637,0.182069421
+Nothing in particular Black Straight No degree Urban Unmarried women,Black people,Black,Nothing in particular,449.6083486,94.54366021,0.688485051,82.26287033,3.43652893,0.218638649,Democratic,0.038780221,0.179858428
+Protestant White Straight No degree Urban Unmarried men,Mosaic middle,White,Protestant,444.5582103,35.4141106,0.528770721,37.82777682,5.879293796,0.216182832,Mixed,0.134405673,0.081777159
+Catholic Hispanic Straight No degree Suburban Unmarried women,Mosaic middle,Hispanic,Catholic,440.1877956,72.01143531,0.654273861,72.33826892,4.288850562,0.214057557,Democratic,0.059212026,0.154845531
+Atheist White Straight No degree Rural Married men,Secular,White,Atheist,437.3854009,73.76123691,0.703692014,73.55345497,5.05846031,0.212694789,Democratic,0.056250423,0.156444366
+Evangelical Black Straight College degree Urban Unmarried women,Black people,Black,Evangelical,434.9317712,87.10800066,0.702238526,81.30215794,7.038029316,0.211501621,Democratic,0.039546239,0.171955382
+Catholic Hispanic Straight No degree Urban Married women,Mosaic middle,Hispanic,Catholic,432.1351483,74.31203924,0.645318151,72.9090207,8.284987093,0.21014166,Democratic,0.056929434,0.153212227
+Other White Straight No degree Suburban Married women,Mosaic middle,White,Other,427.3045461,40.25451903,0.541099289,38.97813935,7.993614153,0.207792602,Mixed,0.126798912,0.08099369
+Nothing in particular White Straight College degree Urban Married women,Mosaic middle,White,Nothing in particular,424.6029953,78.70461489,0.760672992,76.12422708,5.250478463,0.206478873,Democratic,0.049298427,0.157180446
+Agnostic White Straight No degree Rural Married men,Secular,White,Agnostic,422.2256624,49.83084338,0.569054484,52.9667714,5.761744086,0.205322807,Mixed,0.096569945,0.108752862
+Agnostic White Straight No degree Suburban Married men,Secular,White,Agnostic,418.7951012,59.47154883,0.629635149,59.31846651,5.060827886,0.20365457,Mixed,0.082849802,0.120804768
+Agnostic White Straight No degree Rural Unmarried men,Secular,White,Agnostic,405.5690087,53.66303917,0.629921541,55.04129142,4.911033638,0.197222895,Mixed,0.088668866,0.108554028
+Evangelical Hispanic Straight No degree Suburban Married men,Mosaic middle,Hispanic,Evangelical,405.3044398,45.69519226,0.50587331,51.25722323,6.044745185,0.197094238,Mixed,0.096069205,0.101025034
+Other White Straight No degree Rural Unmarried women,Mosaic middle,White,Other,405.279655,46.68613377,0.603291256,45.46553801,4.792865761,0.197082186,Mixed,0.10747771,0.089604476
+Atheist White Straight College degree Suburban Unmarried men,Secular,White,Atheist,404.5226563,84.40843755,0.80203628,82.93972567,3.391458454,0.196714067,Democratic,0.03355996,0.163154108
+Evangelical Black Straight No degree Rural Married women,Black people,Black,Evangelical,395.7407418,84.75296481,0.619975189,82.85115026,4.492152719,0.192443537,Democratic,0.033001853,0.159441684
+Agnostic White Straight College degree Suburban Unmarried women,Secular,White,Agnostic,392.8234073,89.03176956,0.827729255,85.97831172,4.215324462,0.191024876,Democratic,0.026784913,0.164239963
+Atheist White Straight College degree Urban Unmarried women,Secular,White,Atheist,385.9869464,93.63652372,0.884617134,93.94945174,2.625467146,0.187700394,Democratic,0.011356903,0.176343491
+Nothing in particular White Straight College degree Suburban Unmarried men,Mosaic middle,White,Nothing in particular,384.6589612,58.15415598,0.622066256,56.53167802,6.934530271,0.187054613,Mixed,0.081309501,0.105745111
+Atheist White Straight College degree Suburban Unmarried women,Secular,White,Atheist,383.3245627,95.14632987,0.858979862,91.43770003,2.018548814,0.186405712,Democratic,0.015960616,0.170445096
+Evangelical White Straight College degree Urban Unmarried men,White evangelicals,White,Evangelical,381.560835,23.88849345,0.446094472,29.73661499,9.595598662,0.185548034,Republican,0.13037233,0.055175705
+Evangelical Hispanic Straight No degree Urban Married women,Mosaic middle,Hispanic,Evangelical,376.3923315,55.14893928,0.555922975,53.26639122,4.392176925,0.183034659,Mixed,0.085538701,0.097495957
+Agnostic White Straight College degree Urban Unmarried women,Secular,White,Agnostic,375.1826205,89.19648309,0.847278767,88.38367892,2.614613214,0.182446392,Democratic,0.021193559,0.161252833
+Atheist White Straight College degree Rural Married men,Secular,White,Atheist,374.7936052,85.02537706,0.79210761,82.75730683,5.087306773,0.182257219,Democratic,0.031426053,0.150831166
+Other White Straight No degree Suburban Married men,Mosaic middle,White,Other,374.1029131,30.22808199,0.454756784,32.45879291,4.302448529,0.181921345,Mixed,0.122871872,0.059049473
+Evangelical Hispanic Straight No degree Urban Unmarried women,Mosaic middle,Hispanic,Evangelical,370.1922193,57.92780956,0.603661683,55.57418791,6.410396751,0.180019625,Mixed,0.079975181,0.100044445
+Other White Straight No degree Rural Married men,Mosaic middle,White,Other,368.8562341,31.30064998,0.438375778,32.77710078,3.514347499,0.179369953,Mixed,0.120577683,0.05879227
+Catholic Hispanic Straight No degree Suburban Unmarried men,Mosaic middle,Hispanic,Catholic,368.0906893,68.92126884,0.626780088,62.68021803,3.428896864,0.178997679,Mixed,0.066801544,0.112196135
+Atheist White Straight No degree Rural Unmarried men,Secular,White,Atheist,367.0811151,77.04548068,0.680074433,65.59460212,2.519279626,0.178506736,Mixed,0.061415953,0.117090783
+Nothing in particular White Straight College degree Urban Married men,Mosaic middle,White,Nothing in particular,364.63638,69.47193564,0.688686967,69.70187643,6.516642912,0.177317894,Mixed,0.053723995,0.123593899
+Evangelical Black Straight No degree Rural Married men,Black people,Black,Evangelical,364.1766116,73.48459364,0.590279383,79.57209768,9.145138066,0.177094314,Democratic,0.036176654,0.140917661
+Atheist White Straight No degree Urban Unmarried men,Secular,White,Atheist,361.6521375,73.5479193,0.723215572,70.3649451,3.479730612,0.175866696,Democratic,0.052118192,0.123748504
+Evangelical Hispanic Straight No degree Suburban Unmarried men,Mosaic middle,Hispanic,Evangelical,354.5671025,42.85025241,0.560110822,51.21018832,4.171302452,0.172421336,Mixed,0.084124045,0.088297291
+Atheist White Straight College degree Urban Unmarried men,Secular,White,Atheist,354.4107965,92.14428715,0.845695876,89.67245715,3.068863143,0.172345326,Democratic,0.017799037,0.154546289
+Protestant White Straight College degree Rural Unmarried men,Mosaic middle,White,Protestant,350.6620918,32.77807382,0.469884731,35.23845905,6.169375569,0.17052238,Mixed,0.110432921,0.060089459
+Agnostic White Straight No degree Rural Married women,Secular,White,Agnostic,350.1527959,65.12819013,0.658098341,63.19924497,7.748173383,0.170274716,Mixed,0.062662381,0.107612335
+Agnostic White Straight College degree Rural Married men,Secular,White,Agnostic,347.6388083,66.42492892,0.681082993,68.12338432,3.741863836,0.169052197,Mixed,0.053888119,0.115164078
+Catholic White Straight College degree Urban Unmarried men,Mosaic middle,White,Catholic,340.1291687,46.42510908,0.57467652,45.70133072,6.036624194,0.165400358,Mixed,0.089810193,0.075590165
+Other White Straight College degree Rural Married women,Mosaic middle,White,Other,330.9169084,50.07019207,0.626993164,50.10737669,5.334224268,0.160920556,Mixed,0.080287487,0.080633069
+Agnostic White Straight College degree Suburban Unmarried men,Secular,White,Agnostic,330.3965115,73.23261117,0.728467536,73.27064318,2.98575961,0.160667494,Democratic,0.042945388,0.117722106
+Atheist White Straight College degree Rural Married women,Secular,White,Atheist,330.1527281,92.03865593,0.852434836,91.73671886,2.861384798,0.160548946,Democratic,0.013266611,0.147282335
+Evangelical Black Straight College degree Suburban Married women,Black people,Black,Evangelical,329.5993815,82.95250231,0.692693758,80.84574866,4.729620278,0.16027986,Democratic,0.030700407,0.129579453
+Evangelical Hispanic Straight No degree Urban Married men,Mosaic middle,Hispanic,Evangelical,325.5997112,55.75206578,0.508032187,49.86528777,9.187632167,0.158334873,Mixed,0.079380733,0.07895414
+Evangelical Black Straight No degree Rural Unmarried men,Black people,Black,Evangelical,325.1713512,72.61229927,0.599016837,70.43345593,8.757980056,0.158126567,Democratic,0.046752561,0.111374006
+Other White Straight No degree Suburban Unmarried women,Mosaic middle,White,Other,324.4474467,48.60352417,0.61551519,48.70875081,4.048909288,0.157774542,Mixed,0.080924533,0.076850008
+Agnostic White Straight College degree Rural Married women,Secular,White,Agnostic,317.3424543,81.35897307,0.792335915,81.21331519,3.884279935,0.154319477,Democratic,0.028991514,0.125327963
+Agnostic White Straight College degree Urban Married men,Secular,White,Agnostic,316.940169,84.98111342,0.778034236,83.27157132,4.913194183,0.154123851,Democratic,0.025782499,0.128341353
+Agnostic White Straight No degree Suburban Unmarried women,Secular,White,Agnostic,313.3316773,80.65181831,0.735037581,75.32412678,3.041439285,0.152369089,Democratic,0.037598403,0.114770686
+Catholic Hispanic Straight No degree Urban Married men,Mosaic middle,Hispanic,Catholic,312.0850416,74.03104702,0.633959853,64.71240758,6.860217031,0.151762866,Mixed,0.053553462,0.098209405
+Agnostic White Straight No degree Rural Unmarried women,Secular,White,Agnostic,310.7093742,75.02872493,0.721930856,70.79949509,4.657622288,0.151093897,Democratic,0.044120181,0.106973716
+Atheist White Straight College degree Urban Married women,Secular,White,Atheist,310.1094583,93.87695433,0.879795417,93.54172669,2.234828353,0.150802166,Democratic,0.009739216,0.14106295
+Agnostic White Straight No degree Urban Unmarried men,Secular,White,Agnostic,308.6384502,69.99865409,0.664424704,65.22832927,7.568262788,0.150086834,Mixed,0.0521877,0.097899134
+Protestant White Straight College degree Urban Unmarried men,Mosaic middle,White,Protestant,306.9830299,58.68805875,0.60712272,54.38798691,7.331378627,0.149281825,Mixed,0.068090446,0.081191379
+Evangelical Hispanic Straight No degree Urban Unmarried men,Mosaic middle,Hispanic,Evangelical,305.4848167,50.18997555,0.564977463,51.03904792,3.098811058,0.148553263,Mixed,0.072733092,0.075820171
+Agnostic White Straight No degree Suburban Married women,Secular,White,Agnostic,300.591016,74.67461534,0.693837911,71.0066808,5.429983274,0.146173472,Democratic,0.042380541,0.103792931
+Atheist White Straight No degree Suburban Unmarried women,Secular,White,Atheist,297.4459835,86.1751509,0.792515137,76.16472773,2.194221256,0.144644084,Democratic,0.034476311,0.110167773
+Other White Straight College degree Rural Married men,Mosaic middle,White,Other,297.434696,41.84412988,0.49498882,41.51340283,7.626777585,0.144638595,Mixed,0.084594193,0.060044403
+Other White Straight No degree Rural Unmarried men,Mosaic middle,White,Other,294.6508998,33.6038739,0.541418149,39.05374181,3.693299758,0.143284872,Mixed,0.087326768,0.055958104
+Nothing in particular White Straight College degree Urban Unmarried men,Mosaic middle,White,Nothing in particular,293.4125015,78.89005614,0.738369464,75.91113364,3.878031524,0.142682655,Democratic,0.034370634,0.108312021
+Other White Straight No degree Suburban Unmarried men,Mosaic middle,White,Other,291.7981478,40.34636684,0.550075445,41.02977015,2.835804468,0.141897616,Mixed,0.08367735,0.058220266
+Evangelical Hispanic Straight No degree Rural Married women,Mosaic middle,Hispanic,Evangelical,289.7350432,39.48256394,0.522020268,42.57199389,6.394469037,0.140894355,Mixed,0.080912819,0.059981536
+Catholic Hispanic Straight College degree Suburban Married women,Mosaic middle,Hispanic,Catholic,287.6085258,59.06322736,0.666730451,60.95451148,8.063605857,0.139860257,Mixed,0.054609121,0.085251137
+Evangelical Hispanic Straight No degree Suburban Unmarried women,Mosaic middle,Hispanic,Evangelical,286.881935,57.85896417,0.573515794,54.04699638,5.393899802,0.139506926,Mixed,0.064107623,0.075399303
+Atheist White Straight No degree Suburban Married women,Secular,White,Atheist,283.6135097,79.39650713,0.772206963,77.80079609,3.978578409,0.137917533,Democratic,0.030616594,0.107300939
+Protestant Black Straight No degree Urban Unmarried men,Black people,Black,Protestant,280.1429424,93.89305165,0.646933219,82.6763852,4.475537638,0.136229842,Democratic,0.023599933,0.112629909
+Agnostic White Straight College degree Urban Unmarried men,Secular,White,Agnostic,279.4240775,82.75409654,0.76059209,78.28903213,6.903565379,0.135880267,Democratic,0.029500921,0.106379346
+Evangelical White LGBTQ No degree Rural Unmarried men,White evangelicals,White,Evangelical,276.6427243,27.83466323,0.466176616,34.90385192,3.905328135,0.134527732,Mixed,0.087572372,0.04695536
+Nothing in particular White LGBTQ No degree Urban Unmarried men,LGBTQ,White,Nothing in particular,275.6255828,81.40244482,0.709539481,69.56264204,4.970654155,0.134033109,Mixed,0.040796137,0.093236972
+Jewish White Straight College degree Suburban Unmarried women,Mosaic middle,White,Jewish,274.5571779,84.54838871,0.779044588,83.36772884,6.288557644,0.133513558,Democratic,0.022206337,0.111307221
+Jewish White Straight College degree Urban Married men,Mosaic middle,White,Jewish,266.4882707,72.31015626,0.707506165,70.16799278,5.043249211,0.129589754,Democratic,0.038659225,0.090930529
+Other White Straight No degree Urban Unmarried women,Mosaic middle,White,Other,266.173473,55.88401357,0.645345244,51.74565593,5.703875696,0.129436672,Mixed,0.062458817,0.066977855
+Nothing in particular Hispanic Straight No degree Urban Unmarried men,Mosaic middle,Hispanic,Nothing in particular,260.1148791,70.40091728,0.656581355,64.6777787,3.495233749,0.126490457,Mixed,0.044679239,0.081811218
+Evangelical Black Straight College degree Suburban Married men,Black people,Black,Evangelical,258.6590751,74.23733878,0.671450126,72.97411011,11.41786286,0.125782519,Democratic,0.033993845,0.091788674
+Catholic Hispanic Straight College degree Suburban Married men,Mosaic middle,Hispanic,Catholic,256.4758797,53.80896829,0.556229927,51.70171051,8.059034108,0.12472086,Mixed,0.060238042,0.064482818
+Catholic White Straight College degree Rural Unmarried men,Mosaic middle,White,Catholic,256.280073,28.51849255,0.436700076,30.44107946,3.898534977,0.124625641,Mixed,0.086688251,0.037937391
+Protestant Black Straight No degree Suburban Unmarried women,Black people,Black,Protestant,253.8814406,97.83551849,0.723775118,88.50717183,1.323817502,0.123459218,Democratic,0.014188956,0.109270262
+Evangelical Hispanic Straight No degree Rural Married men,Mosaic middle,Hispanic,Evangelical,250.4949815,24.31323,0.447379196,32.11545236,10.07249744,0.121812427,Mixed,0.082691815,0.039120612
+Evangelical Hispanic Straight No degree Rural Unmarried women,Mosaic middle,Hispanic,Evangelical,249.4953683,35.09833123,0.568241537,46.43624228,8.374114567,0.121326328,Mixed,0.064986941,0.056339388
+Agnostic White Straight College degree Urban Married women,Secular,White,Agnostic,249.1814658,92.56501296,0.846775701,90.439052,3.989592047,0.121173682,Democratic,0.011585353,0.109588329
+Atheist White LGBTQ College degree Urban Unmarried men,Secular,White,Atheist,249.0202532,94.51601097,0.878516469,93.19851103,2.274012797,0.121095286,Democratic,0.008236283,0.112859004
+Other White Straight College degree Suburban Unmarried women,Mosaic middle,White,Other,247.3744632,68.05422283,0.686607849,64.90354198,5.410835697,0.12029496,Mixed,0.04221927,0.07807569
+Nothing in particular White Straight College degree Rural Unmarried men,Mosaic middle,White,Nothing in particular,246.3900858,52.58546693,0.606279124,55.26762954,5.754439931,0.11981627,Mixed,0.053596658,0.066219612
+Nothing in particular White LGBTQ No degree Rural Unmarried men,LGBTQ,White,Nothing in particular,246.3450161,68.44242199,0.673514387,64.27606981,4.178100207,0.119794353,Mixed,0.042795251,0.076999102
+Atheist White Straight No degree Rural Unmarried women,Secular,White,Atheist,243.8099129,85.50805592,0.751458862,72.1951808,2.903203193,0.118561566,Democratic,0.032965829,0.085595737
+Atheist White Straight No degree Urban Married men,Secular,White,Atheist,242.8407901,78.37339835,0.740988942,78.96308479,8.346013192,0.118090294,Democratic,0.024842555,0.093247739
+Other White Straight College degree Urban Married men,Mosaic middle,White,Other,242.4555159,64.53583154,0.636024508,61.54049425,6.463058296,0.11790294,Mixed,0.045344888,0.072558052
+Jewish White Straight College degree Urban Unmarried women,Mosaic middle,White,Jewish,240.6650857,91.52617089,0.806683837,85.65895235,7.178183419,0.117032278,Democratic,0.016783655,0.100248623
+Evangelical White LGBTQ No degree Suburban Unmarried men,White evangelicals,White,Evangelical,240.6552087,45.93810877,0.541402708,40.2484301,5.63655993,0.117027475,Mixed,0.069925753,0.047101721
+Nothing in particular White LGBTQ No degree Suburban Unmarried men,LGBTQ,White,Nothing in particular,240.2545298,69.19253774,0.683570577,68.70188311,2.679042863,0.11683263,Mixed,0.036566413,0.080266217
+Atheist White Straight No degree Rural Married women,Secular,White,Atheist,239.8974225,81.21139425,0.731800435,74.81453077,3.588431641,0.116658973,Democratic,0.02938111,0.087277863
+Atheist White Straight College degree Rural Unmarried women,Secular,White,Atheist,238.1342192,94.16028365,0.884561086,92.72415564,3.026315239,0.11580155,Democratic,0.008425541,0.10737601
+Catholic Hispanic Straight No degree Rural Married men,Mosaic middle,Hispanic,Catholic,237.0647866,54.88365445,0.558763505,56.41315326,8.799206618,0.115281499,Mixed,0.05024757,0.065033929
+Other White Straight No degree Urban Married women,Mosaic middle,White,Other,233.7642911,49.66269628,0.602719053,49.93240596,8.347938167,0.113676512,Mixed,0.056915094,0.056761417
+Nothing in particular Black Straight No degree Suburban Unmarried women,Black people,Black,Nothing in particular,232.9058086,94.93804127,0.675534702,81.05025902,1.053246021,0.113259043,Democratic,0.021462295,0.091796748
+Protestant Black Straight No degree Suburban Unmarried men,Black people,Black,Protestant,225.4094584,92.7608709,0.690050008,79.36675388,2.502303475,0.109613666,Democratic,0.022616857,0.086996809
+Protestant Black Straight No degree Suburban Married men,Black people,Black,Protestant,222.2162978,94.12997037,0.736897878,90.75204804,4.969829826,0.108060874,Democratic,0.009993418,0.098067456
+Evangelical Black Straight College degree Urban Married women,Black people,Black,Evangelical,221.1622176,91.23606802,0.689335495,86.45267992,5.891668003,0.107548288,Democratic,0.014569911,0.092978378
+Atheist White LGBTQ No degree Urban Unmarried men,Secular,White,Atheist,217.0530425,92.62160003,0.838946471,90.17895092,2.124925773,0.10555005,Democratic,0.010366122,0.095183928
+Nothing in particular Black Straight No degree Suburban Unmarried men,Black people,Black,Nothing in particular,215.2567814,89.2285293,0.655684615,75.5571458,1.817703461,0.104676552,Democratic,0.025585937,0.079090615
+Agnostic White Straight College degree Rural Unmarried women,Secular,White,Agnostic,214.8536557,84.79990687,0.819207186,85.20446017,6.722850898,0.104480517,Democratic,0.015458457,0.089022061
+Other White Straight College degree Urban Married women,Mosaic middle,White,Other,214.3748386,71.98460703,0.704149466,68.62752875,6.89124466,0.104247675,Mixed,0.032705072,0.071542603
+Evangelical Other race Straight No degree Rural Married men,Mosaic middle,Other race,Evangelical,213.5283006,3.984851789,0.30350436,13.87385186,2.112075278,0.103836015,Republican,0.08942996,0.014406055
+Catholic Hispanic Straight No degree Rural Married women,Mosaic middle,Hispanic,Catholic,213.2947592,67.41128822,0.619784669,62.26468173,4.170447279,0.103722447,Mixed,0.039139995,0.064582451
+Other White Straight College degree Rural Unmarried women,Mosaic middle,White,Other,213.1485138,69.1022333,0.707174657,68.33787121,6.255235608,0.103651329,Mixed,0.032818217,0.070833112
+Atheist White Straight College degree Rural Unmarried men,Secular,White,Atheist,212.7847027,91.57415295,0.850452789,89.6989676,2.909796037,0.103474413,Democratic,0.010658933,0.09281548
+Atheist White Straight No degree Urban Unmarried women,Secular,White,Atheist,211.9819039,88.23567863,0.766521887,81.44757868,3.687543713,0.103084022,Democratic,0.019124582,0.08395944
+Jewish White Straight No degree Suburban Unmarried women,Mosaic middle,White,Jewish,211.6393986,74.20054784,0.706539062,71.27402554,9.183968134,0.102917466,Democratic,0.029564045,0.073353421
+Protestant Black Straight College degree Suburban Unmarried women,Black people,Black,Protestant,211.2776591,94.82289686,0.797863065,93.44275068,3.297080393,0.102741557,Democratic,0.00673702,0.096004537
+Catholic Hispanic Straight No degree Rural Unmarried women,Mosaic middle,Hispanic,Catholic,204.9644833,80.01219176,0.669639354,71.04921557,2.972835962,0.099671543,Democratic,0.028855693,0.070815849
+Protestant Black Straight College degree Urban Unmarried women,Black people,Black,Protestant,204.9226226,98.3341595,0.782552765,94.89066026,2.001265827,0.099651186,Democratic,0.005091518,0.094559669
+Evangelical Other race Straight No degree Rural Married women,Mosaic middle,Other race,Evangelical,204.8828692,5.522381135,0.36696651,18.56164839,3.187147451,0.099631855,Republican,0.08113854,0.018493315
+Other Asian Straight College degree Suburban Married women,Mosaic middle,Asian,Other,204.4192601,82.03584502,0.67406626,76.81699828,5.77203334,0.099406408,Democratic,0.023045389,0.076361018
+Agnostic White Straight No degree Urban Unmarried women,Secular,White,Agnostic,203.1997774,82.08818902,0.738585996,77.91422148,5.801297813,0.098813389,Democratic,0.021823706,0.076989683
+Catholic Hispanic Straight No degree Rural Unmarried men,Mosaic middle,Hispanic,Catholic,202.4945354,51.29582648,0.579990194,59.53185937,4.084804388,0.098470439,Mixed,0.039849156,0.058621283
+Nothing in particular White LGBTQ No degree Suburban Unmarried women,LGBTQ,White,Nothing in particular,202.2814436,87.48501279,0.74737039,74.33055989,2.936217202,0.098366815,Democratic,0.025250211,0.073116605
+Evangelical White LGBTQ No degree Rural Unmarried women,White evangelicals,White,Evangelical,200.9033259,42.2674103,0.560350278,42.74487037,5.226713135,0.097696655,Mixed,0.055936346,0.041760308
+Evangelical Black Straight College degree Urban Married men,Black people,Black,Evangelical,199.4274815,86.86209349,0.656954377,77.20651326,6.701430695,0.096978971,Democratic,0.022104889,0.074874082
+Nothing in particular White LGBTQ College degree Urban Unmarried men,LGBTQ,White,Nothing in particular,198.9571026,93.42948172,0.829704867,90.01639903,2.179197454,0.096750232,Democratic,0.009659157,0.087091075
+Nothing in particular Hispanic Straight No degree Suburban Unmarried men,Mosaic middle,Hispanic,Nothing in particular,196.3410644,64.09307102,0.624874568,56.52298295,1.889260431,0.095478087,Mixed,0.041511024,0.053967063
+Catholic Hispanic Straight College degree Urban Unmarried women,Mosaic middle,Hispanic,Catholic,194.073767,80.61218684,0.705764307,77.19507772,5.354944077,0.09437553,Democratic,0.021522266,0.072853264
+Atheist White LGBTQ No degree Suburban Unmarried men,Secular,White,Atheist,193.177988,86.86051724,0.819844997,82.4500273,2.328288493,0.093939924,Democratic,0.016486431,0.077453493
+Catholic Hispanic Straight College degree Urban Married women,Mosaic middle,Hispanic,Catholic,192.1360366,61.71038957,0.636078795,60.30252465,7.011317164,0.093433237,Mixed,0.037090636,0.056342601
+Evangelical Asian Straight College degree Suburban Married women,Mosaic middle,Asian,Evangelical,191.559075,25.00850457,0.451388667,33.72903143,9.618702807,0.093152668,Mixed,0.061733175,0.031419493
+Jewish White Straight College degree Urban Married women,Mosaic middle,White,Jewish,189.9354329,87.53684876,0.795751017,84.05845954,4.638893345,0.092363112,Democratic,0.014724103,0.077639009
+Jewish White Straight No degree Suburban Married women,Mosaic middle,White,Jewish,183.3193269,67.58530295,0.68001053,64.73906744,8.621589757,0.089145787,Mixed,0.031433636,0.057712151
+Evangelical Asian Straight College degree Suburban Married men,Mosaic middle,Asian,Evangelical,182.6232129,28.85837111,0.456402453,31.50819701,10.89726147,0.088807275,Mixed,0.060825704,0.027981571
+Agnostic White Straight No degree Urban Married men,Secular,White,Agnostic,181.0699357,57.03560039,0.615260338,57.98986219,5.245809524,0.088051937,Mixed,0.03699074,0.051061197
+Nothing in particular White LGBTQ No degree Rural Unmarried women,LGBTQ,White,Nothing in particular,180.0308401,72.6228167,0.691741857,63.16508721,3.249093806,0.087546639,Mixed,0.032247728,0.055298911
+Nothing in particular Hispanic Straight No degree Urban Unmarried women,Mosaic middle,Hispanic,Nothing in particular,179.9319548,78.78622111,0.676822522,68.80829149,2.361798656,0.087498552,Mixed,0.027292293,0.060206259
+Jewish White Straight College degree Suburban Unmarried men,Mosaic middle,White,Jewish,179.895816,67.16035457,0.667235136,62.02105937,7.026884006,0.087480978,Mixed,0.033224349,0.054256629
+Evangelical Black Straight College degree Rural Unmarried women,Black people,Black,Evangelical,178.6641808,89.11605233,0.701013929,87.88518287,6.060844099,0.08688205,Democratic,0.010525601,0.076356449
+Evangelical White LGBTQ No degree Rural Married women,White evangelicals,White,Evangelical,177.8262821,21.8686167,0.427315705,28.79307153,10.04227667,0.086474591,Republican,0.0615759,0.024898691
+Evangelical White LGBTQ No degree Urban Unmarried men,White evangelicals,White,Evangelical,177.1479034,52.151293,0.520876522,50.49899991,4.350185418,0.086144704,Mixed,0.04264249,0.043502214
+Evangelical Hispanic Straight College degree Suburban Married men,Mosaic middle,Hispanic,Evangelical,175.8357416,23.71185618,0.436709763,30.01789814,8.979595873,0.085506617,Mixed,0.059839328,0.025667289
+Other White Straight College degree Urban Unmarried women,Mosaic middle,White,Other,175.0041162,77.64449075,0.775745533,78.06760134,7.122040567,0.085102209,Democratic,0.018664956,0.066437253
+Nothing in particular Black Straight No degree Rural Unmarried women,Black people,Black,Nothing in particular,174.4910149,76.78544345,0.643507952,73.32789487,2.410648444,0.084852694,Democratic,0.022632,0.062220694
+Evangelical Black Straight College degree Urban Unmarried men,Black people,Black,Evangelical,173.8277825,87.60641521,0.660460202,80.56602414,6.617125472,0.084530173,Democratic,0.016427573,0.0681026
+Catholic Hispanic Straight College degree Urban Married men,Mosaic middle,Hispanic,Catholic,172.9437183,54.22559737,0.566220645,55.12459136,8.425667001,0.084100264,Mixed,0.037740337,0.046359927
+Agnostic White Straight College degree Rural Unmarried men,Secular,White,Agnostic,172.8325862,75.81975989,0.705904165,73.68656068,5.877166454,0.084046222,Democratic,0.022115452,0.06193077
+Other White Straight No degree Urban Unmarried men,Mosaic middle,White,Other,169.7496791,50.12289988,0.584643651,43.94848425,4.30801367,0.082547045,Mixed,0.04626887,0.036278175
+Other White Straight College degree Suburban Unmarried men,Mosaic middle,White,Other,169.456289,57.28716396,0.559004932,55.4962947,6.412416231,0.082404373,Mixed,0.036672999,0.045731374
+Nothing in particular White LGBTQ College degree Urban Unmarried women,LGBTQ,White,Nothing in particular,168.1733097,98.05246708,0.87631804,89.58107886,1.278441455,0.081780477,Democratic,0.008520643,0.073259833
+Atheist White LGBTQ College degree Suburban Unmarried men,Secular,White,Atheist,168.0310679,96.3124369,0.85960431,93.69794799,1.656781837,0.081711307,Democratic,0.005149489,0.076561818
+Other White Straight No degree Urban Married men,Mosaic middle,White,Other,167.4309891,43.63880469,0.52737235,45.13603773,5.122918515,0.081419496,Mixed,0.044669962,0.036749534
+Jewish White Straight No degree Suburban Unmarried men,Mosaic middle,White,Jewish,164.065386,66.82456745,0.641702147,67.55086188,11.03829037,0.079782847,Mixed,0.025888846,0.053894001
+Agnostic White LGBTQ No degree Suburban Unmarried men,Secular,White,Agnostic,163.5851353,78.91387477,0.760912525,79.11678081,5.807949423,0.079549308,Democratic,0.016612456,0.062936851
+Evangelical White LGBTQ College degree Urban Married men,White evangelicals,White,Evangelical,163.5617726,55.39310362,0.547438719,54.84589628,9.3712603,0.079537947,Mixed,0.035914647,0.0436233
+Evangelical White LGBTQ No degree Rural Married men,White evangelicals,White,Evangelical,162.6238865,20.13241316,0.403019567,24.12101957,7.642189484,0.079081865,Republican,0.060006513,0.019075352
+Protestant White LGBTQ No degree Urban Unmarried men,LGBTQ,White,Protestant,160.3324573,75.17896849,0.671662136,73.35725596,8.518605419,0.077967573,Democratic,0.020772701,0.057194872
+Atheist White LGBTQ No degree Rural Unmarried men,Secular,White,Atheist,157.6702718,87.36846011,0.80271627,83.3481117,2.177057124,0.076672987,Democratic,0.0127675,0.063905487
+Agnostic White LGBTQ College degree Urban Unmarried women,Secular,White,Agnostic,156.7097053,99.21990505,0.912790088,98.17123877,1.319161135,0.076205876,Democratic,0.001393624,0.074812253
+Nothing in particular White LGBTQ College degree Suburban Unmarried women,LGBTQ,White,Nothing in particular,156.5044433,87.86305991,0.835369663,84.33665104,1.515570779,0.07610606,Democratic,0.011920758,0.064185302
+Nothing in particular White LGBTQ No degree Urban Unmarried women,LGBTQ,White,Nothing in particular,154.2550341,78.65168652,0.715906296,68.58439212,4.84787706,0.075012202,Mixed,0.023565539,0.051446663
+Agnostic White LGBTQ College degree Urban Unmarried men,Secular,White,Agnostic,154.2472758,93.24384922,0.854365339,91.88459115,4.721516351,0.075008429,Democratic,0.006087241,0.068921188
+Nothing in particular White LGBTQ College degree Suburban Unmarried men,LGBTQ,White,Nothing in particular,153.5007847,85.10621701,0.805617327,80.31820808,3.237491103,0.07464542,Democratic,0.014691556,0.059953864
+Nothing in particular Black Straight No degree Rural Unmarried men,Black people,Black,Nothing in particular,152.8222032,90.89031993,0.66612372,69.92268708,2.102575287,0.074315435,Mixed,0.022352086,0.051963349
+Evangelical Black Straight College degree Suburban Unmarried men,Black people,Black,Evangelical,152.0719895,63.16143832,0.64954375,67.35241746,7.068362748,0.073950616,Mixed,0.024143088,0.049807528
+Agnostic White Straight No degree Urban Married women,Secular,White,Agnostic,151.8019086,78.00102496,0.686031762,71.68481318,6.365313547,0.073819279,Democratic,0.020902067,0.052917212
+Protestant Black Straight No degree Suburban Married women,Black people,Black,Protestant,151.7840439,91.90521427,0.674411979,91.02770183,3.41283036,0.073810592,Democratic,0.006622506,0.067188085
+Protestant White LGBTQ College degree Suburban Unmarried men,LGBTQ,White,Protestant,149.9405448,71.78051742,0.703880719,69.45150615,4.959950824,0.072914122,Mixed,0.022274166,0.050639956
+Other Asian Straight College degree Suburban Married men,Mosaic middle,Asian,Other,149.3089462,69.18166145,0.671615706,65.95147133,12.01517353,0.072606984,Mixed,0.02472161,0.047885374
+Jewish White Straight College degree Urban Unmarried men,Mosaic middle,White,Jewish,149.2893849,70.89108592,0.731678893,69.67259598,8.693523155,0.072597472,Mixed,0.022016929,0.050580543
+Atheist White LGBTQ College degree Urban Unmarried women,Secular,White,Atheist,149.0989799,95.40942405,0.896919765,93.54755525,3.113527866,0.07250488,Democratic,0.004678337,0.067826543
+Evangelical Hispanic Straight College degree Urban Married women,Mosaic middle,Hispanic,Evangelical,149.0125028,52.0462746,0.585827412,54.87471095,7.771768185,0.072462828,Mixed,0.03269906,0.039763767
+Evangelical Hispanic Straight College degree Suburban Married women,Mosaic middle,Hispanic,Evangelical,148.0182396,41.07956506,0.553626838,41.61520849,6.569452178,0.07197933,Mixed,0.042024982,0.029954348
+Jewish White Straight No degree Urban Unmarried women,Mosaic middle,White,Jewish,147.7311773,86.7058324,0.734716239,81.50792272,9.481072517,0.071839736,Democratic,0.013284659,0.058555076
+Nothing in particular Hispanic Straight No degree Suburban Unmarried women,Mosaic middle,Hispanic,Nothing in particular,147.0772412,77.15411967,0.67652877,68.4162816,3.692126256,0.071521735,Mixed,0.022589223,0.048932512
+Other Black Straight No degree Urban Unmarried women,Black people,Black,Other,146.5849852,95.80692286,0.679303775,80.23792196,1.224270355,0.071282358,Democratic,0.014086875,0.057195482
+Agnostic White LGBTQ No degree Urban Unmarried men,Secular,White,Agnostic,146.1390335,86.82852381,0.790066849,82.71499949,0.185685877,0.071065497,Democratic,0.012283672,0.058781826
+Protestant White LGBTQ College degree Urban Unmarried men,LGBTQ,White,Protestant,144.7074888,83.79999465,0.76714707,82.91282954,3.21245063,0.070369356,Democratic,0.012024132,0.058345224
+Evangelical Other race Straight No degree Rural Unmarried women,Mosaic middle,Other race,Evangelical,144.671681,22.77690108,0.473187791,34.6635007,2.831844833,0.070351943,Mixed,0.045965497,0.024386446
+Nothing in particular Hispanic Straight No degree Rural Unmarried women,Mosaic middle,Hispanic,Nothing in particular,144.6427865,67.08030614,0.682861951,60.97672978,3.641567111,0.070337892,Mixed,0.027448146,0.042889746
+Catholic Hispanic Straight College degree Suburban Unmarried women,Mosaic middle,Hispanic,Catholic,140.9289015,80.02490088,0.719450055,73.72459824,2.999377936,0.068531878,Democratic,0.018007026,0.050524852
+Protestant Black Straight No degree Rural Unmarried women,Black people,Black,Protestant,138.2915215,92.08662502,0.678542042,84.01003821,2.916467218,0.067249355,Democratic,0.010753146,0.056496209
+Nothing in particular Asian Straight College degree Suburban Married men,Mosaic middle,Asian,Nothing in particular,137.8590461,71.44210645,0.670561179,67.16636939,11.70333394,0.067039048,Mixed,0.022011353,0.045027694
+Nothing in particular Black Straight No degree Suburban Married men,Black people,Black,Nothing in particular,136.6321149,94.90949396,0.700558885,86.20867596,3.537421689,0.066442407,Democratic,0.009163288,0.057279119
+Other White Straight College degree Urban Unmarried men,Mosaic middle,White,Other,136.5397929,56.67255174,0.651902024,59.20349731,7.816295945,0.066397512,Mixed,0.027087863,0.039309649
+Evangelical Other race Straight No degree Rural Unmarried men,Mosaic middle,Other race,Evangelical,136.3195442,9.815324659,0.398829134,28.47180245,11.59674816,0.066290408,Republican,0.047416334,0.018874074
+Atheist White Straight No degree Urban Married women,Secular,White,Atheist,136.2365811,82.9685957,0.763402266,79.38280537,3.027514158,0.066250064,Democratic,0.013658905,0.05259116
+Evangelical Hispanic Straight College degree Urban Married men,Mosaic middle,Hispanic,Evangelical,136.0957803,39.48185343,0.574612574,46.57550022,7.038777779,0.066181595,Mixed,0.035357186,0.030824409
+Nothing in particular Hispanic Straight No degree Suburban Married men,Mosaic middle,Hispanic,Nothing in particular,136.0772247,61.25208197,0.606165969,57.62034844,3.064507225,0.066172571,Mixed,0.028043705,0.038128866
+Evangelical Black LGBTQ No degree Urban Unmarried men,Black people,Black,Evangelical,135.7600466,86.86325965,0.60539104,78.56680243,8.766168354,0.066018332,Democratic,0.014149839,0.051868492
+Other Black Straight No degree Urban Unmarried men,Black people,Black,Other,134.9475651,89.41749859,0.625017314,74.32947848,2.070041276,0.065623233,Democratic,0.016845826,0.048777407
+Agnostic White LGBTQ No degree Suburban Unmarried women,Secular,White,Agnostic,133.7587637,90.72575729,0.829376778,89.15076397,2.753922009,0.065045134,Democratic,0.0070569,0.057988234
+Evangelical Hispanic Straight No degree Rural Unmarried men,Mosaic middle,Hispanic,Evangelical,133.3509205,40.93849135,0.562112309,44.84372449,0.028931555,0.064846805,Mixed,0.035767083,0.029079723
+Agnostic White LGBTQ No degree Rural Unmarried women,Secular,White,Agnostic,132.6879669,85.9663741,0.825018458,82.74305072,4.263590921,0.06452442,Democratic,0.011134946,0.053389473
+Catholic White LGBTQ No degree Suburban Unmarried men,LGBTQ,White,Catholic,132.0478796,52.00172145,0.582871207,59.131318,11.67078285,0.064213154,Mixed,0.02624307,0.037970084
+Evangelical Other race Straight College degree Suburban Married men,Mosaic middle,Other race,Evangelical,131.9935235,6.434512072,0.260150552,9.941053718,1.696375034,0.064186721,Republican,0.057805885,0.006380836
+Atheist White LGBTQ No degree Suburban Unmarried women,Secular,White,Atheist,128.2611571,93.05594321,0.84124893,90.90400535,2.805665997,0.06237172,Democratic,0.005673328,0.056698392
+Protestant White LGBTQ No degree Rural Unmarried men,LGBTQ,White,Protestant,128.0681693,63.21107802,0.627219591,61.06064895,6.708942383,0.062277873,Mixed,0.024250599,0.038027273
+Agnostic White LGBTQ No degree Rural Unmarried men,Secular,White,Agnostic,122.0325462,74.96558077,0.739056366,73.24346941,3.205121874,0.059342828,Democratic,0.015878082,0.043464746
+Nothing in particular Hispanic Straight No degree Suburban Married women,Mosaic middle,Hispanic,Nothing in particular,121.7698338,62.29934635,0.665210762,66.95415498,4.804517959,0.059215075,Mixed,0.019568122,0.039646953
+Atheist White LGBTQ College degree Suburban Unmarried women,Secular,White,Atheist,121.7110716,98.29420684,0.905683732,97.14823393,1.058183474,0.059186499,Democratic,0.001687861,0.057498639
+Agnostic White LGBTQ College degree Suburban Unmarried women,Secular,White,Agnostic,121.6674368,98.12828984,0.888974282,96.5143826,2.769342504,0.05916528,Democratic,0.002062275,0.057103005
+Jewish White Straight College degree Rural Married women,Mosaic middle,White,Jewish,121.2982699,68.62012794,0.737097534,68.96072667,7.037929609,0.058985759,Mixed,0.018308751,0.040677008
+Catholic White LGBTQ No degree Urban Unmarried men,LGBTQ,White,Catholic,120.5827804,67.65167979,0.604996849,60.98360874,6.643433941,0.058637826,Mixed,0.022878364,0.035759462
+Catholic White LGBTQ College degree Urban Unmarried men,LGBTQ,White,Catholic,120.480468,78.66242007,0.740109445,78.0329145,5.763539506,0.058588073,Democratic,0.012870092,0.045717981
+Jewish White Straight College degree Rural Married men,Mosaic middle,White,Jewish,119.9410561,53.97953239,0.572779652,53.88855581,11.02653555,0.058325764,Mixed,0.026894852,0.031430912
+Evangelical Other race Straight No degree Suburban Married men,Mosaic middle,Other race,Evangelical,119.7844976,13.83895719,0.312640102,17.40484201,9.843348283,0.058249632,Republican,0.048111375,0.010138256
+Catholic Asian Straight College degree Suburban Married women,Mosaic middle,Asian,Catholic,118.141039,60.28189683,0.620642929,63.70901675,5.474588767,0.057450439,Mixed,0.020849329,0.03660111
+Nothing in particular Asian Straight College degree Suburban Married women,Mosaic middle,Asian,Nothing in particular,117.7764944,83.00503168,0.666409158,68.35715733,6.238754438,0.057273166,Mixed,0.018122858,0.039150308
+Nothing in particular Black Straight College degree Urban Unmarried women,Black people,Black,Nothing in particular,116.567892,97.53835318,0.775742391,92.67488273,3.967276521,0.056685438,Democratic,0.004152275,0.052533164
+Catholic White LGBTQ No degree Rural Unmarried men,LGBTQ,White,Catholic,116.278235,44.99116877,0.570935135,47.77945887,13.87214938,0.056544582,Mixed,0.029527887,0.027016695
+Evangelical White LGBTQ No degree Urban Married men,White evangelicals,White,Evangelical,115.5199597,61.45981884,0.536948931,58.55462884,9.49174257,0.056175843,Mixed,0.023282287,0.032893556
+Other White LGBTQ No degree Urban Unmarried men,LGBTQ,White,Other,114.6618013,65.36743601,0.66072113,64.96018527,2.314691611,0.055758532,Mixed,0.019537686,0.036220845
+Protestant Black Straight College degree Suburban Married women,Black people,Black,Protestant,114.236247,96.59334686,0.772217702,89.77684914,3.155092771,0.05555159,Democratic,0.005679123,0.049872467
+Evangelical Black Straight College degree Rural Married women,Black people,Black,Evangelical,113.6343095,79.07050523,0.659038079,81.59941135,4.776524636,0.055258876,Democratic,0.010167958,0.045090917
+Catholic Hispanic Straight College degree Suburban Unmarried men,Mosaic middle,Hispanic,Catholic,113.5624188,52.30315999,0.610937842,52.91848141,12.45791261,0.055223916,Mixed,0.026000258,0.029223658
+Protestant Black Straight No degree Urban Married women,Black people,Black,Protestant,112.8312493,95.7654606,0.675293537,87.56124,2.92779727,0.054868358,Democratic,0.006824943,0.048043415
+Other White Straight College degree Rural Unmarried men,Mosaic middle,White,Other,111.2631246,55.2941285,0.620828926,55.36701548,2.585086939,0.0541058,Mixed,0.024149033,0.029956766
+Protestant White LGBTQ No degree Suburban Unmarried men,LGBTQ,White,Protestant,110.9942512,56.03323886,0.627993571,62.25021877,5.562430213,0.05397505,Mixed,0.020375463,0.033599587
+Evangelical White LGBTQ No degree Suburban Unmarried women,White evangelicals,White,Evangelical,109.4345062,36.9640929,0.601731391,43.41110223,4.55509283,0.053216566,Mixed,0.030114668,0.023101898
+Evangelical Hispanic LGBTQ No degree Urban Unmarried men,LGBTQ,Hispanic,Evangelical,109.2822457,66.86719355,0.59465314,69.90164317,6.692225219,0.053142524,Mixed,0.015995027,0.037147498
+Atheist White LGBTQ No degree Rural Unmarried women,Secular,White,Atheist,108.8131477,92.72976508,0.815426985,84.75778404,1.086738323,0.052914408,Democratic,0.008065328,0.04484908
+Jewish White Straight No degree Suburban Married men,Mosaic middle,White,Jewish,108.55583,54.67788994,0.587136239,49.94720779,7.310047729,0.052789278,Mixed,0.026422507,0.02636677
+Protestant Black Straight No degree Urban Married men,Black people,Black,Protestant,108.4960216,91.55154954,0.692112858,89.17900114,5.286059778,0.052760194,Democratic,0.00570918,0.047051014
+Nothing in particular Asian Straight College degree Suburban Unmarried women,Mosaic middle,Asian,Nothing in particular,108.316649,72.14506859,0.707114087,68.18514851,2.564212938,0.052672967,Mixed,0.016757826,0.035915141
+Nothing in particular White LGBTQ No degree Rural Married women,LGBTQ,White,Nothing in particular,107.4420684,62.91647489,0.642048734,59.66646361,10.22380911,0.05224767,Mixed,0.021073333,0.031174337
+Nothing in particular Asian Straight No degree Suburban Unmarried men,Mosaic middle,Asian,Nothing in particular,107.0849095,75.73337751,0.674264654,67.01407806,5.47119045,0.052073988,Mixed,0.017177085,0.034896903
+Nothing in particular Hispanic LGBTQ No degree Urban Unmarried men,LGBTQ,Hispanic,Nothing in particular,106.1162502,86.89587204,0.710413069,70.42960248,0.754057368,0.051602942,Democratic,0.015259195,0.036343747
+Evangelical White LGBTQ College degree Suburban Married men,White evangelicals,White,Evangelical,105.7997056,45.62641865,0.479737622,48.39520255,5.241650014,0.051449011,Mixed,0.026550158,0.024898853
+Catholic Hispanic LGBTQ No degree Urban Unmarried men,LGBTQ,Hispanic,Catholic,105.4716714,87.21304353,0.63768814,75.51295612,2.072375218,0.051289492,Democratic,0.01255928,0.038730211
+Agnostic White LGBTQ College degree Suburban Unmarried men,Secular,White,Agnostic,104.7904225,82.09637159,0.814368707,83.47514053,3.563884597,0.050958209,Democratic,0.008420772,0.042537437
+Evangelical Other race Straight No degree Suburban Married women,Mosaic middle,Other race,Evangelical,103.481201,21.10015195,0.457507508,25.90191487,11.33702678,0.050321552,Republican,0.037287307,0.013034246
+Nothing in particular White LGBTQ College degree Suburban Married women,LGBTQ,White,Nothing in particular,103.1903831,94.11158797,0.84521176,90.56847485,3.388248655,0.050180131,Democratic,0.004732752,0.045447379
+Evangelical Black LGBTQ No degree Urban Unmarried women,Black people,Black,Evangelical,102.6467619,94.05377058,0.626181799,79.14306309,1.188106943,0.049915775,Democratic,0.010410902,0.039504874
+Agnostic White LGBTQ No degree Urban Unmarried women,Secular,White,Agnostic,101.8257017,93.75788344,0.821922033,83.72057769,0.923671049,0.049516504,Democratic,0.008061001,0.041455504
+Protestant Black Straight No degree Rural Unmarried men,Black people,Black,Protestant,101.7300434,91.43362291,0.642398089,81.12614119,2.161262803,0.049469987,Democratic,0.009336896,0.040133092
+Catholic Asian Straight College degree Suburban Married men,Mosaic middle,Asian,Catholic,100.9333288,73.53799035,0.676818294,68.04326432,12.30781431,0.049082555,Mixed,0.015685182,0.033397373
+Nothing in particular White LGBTQ College degree Suburban Married men,LGBTQ,White,Nothing in particular,100.6706062,71.56348038,0.767678556,71.84058726,2.743413269,0.048954797,Democratic,0.013785383,0.035169413
+Nothing in particular Black Straight College degree Suburban Unmarried women,Black people,Black,Nothing in particular,100.0945411,90.2650173,0.781288436,89.4795613,5.104858128,0.048674664,Democratic,0.005120788,0.043553876
+Evangelical Hispanic Straight College degree Urban Unmarried women,Mosaic middle,Hispanic,Evangelical,99.21437306,63.46011663,0.620134254,56.60409173,6.28648395,0.04824665,Mixed,0.020937072,0.027309578
+Evangelical White LGBTQ College degree Suburban Unmarried men,White evangelicals,White,Evangelical,98.78692585,38.58508066,0.458063625,43.18184606,11.8967277,0.048038788,Mixed,0.027294752,0.020744035
+Nothing in particular Black Straight No degree Urban Married women,Black people,Black,Nothing in particular,98.62731268,97.81359092,0.703571462,82.88363517,2.62800711,0.04796117,Democratic,0.008209209,0.039751961
+Nothing in particular Hispanic Straight No degree Rural Married women,Mosaic middle,Hispanic,Nothing in particular,97.37425006,75.03919917,0.671767658,62.4668085,6.925898125,0.047351822,Mixed,0.01777265,0.029579172
+Evangelical Other race Straight College degree Rural Married men,Mosaic middle,Other race,Evangelical,96.31730699,3.597873246,0.24987119,8.107942015,3.620532144,0.046837844,Republican,0.043040259,0.003797585
+Nothing in particular Hispanic Straight No degree Urban Married men,Mosaic middle,Hispanic,Nothing in particular,96.19814019,75.33666169,0.638564303,66.36104233,3.873753336,0.046779895,Mixed,0.015736269,0.031043626
+Evangelical White LGBTQ No degree Suburban Married men,White evangelicals,White,Evangelical,96.08689411,25.74551011,0.478050804,36.07722465,6.682638061,0.046725798,Mixed,0.029868427,0.016857371
+Atheist White LGBTQ College degree Urban Married men,Secular,White,Atheist,95.77375987,97.70450135,0.892420129,97.67747149,2.546111309,0.046573524,Democratic,0.001081683,0.045491841
+Nothing in particular Black Straight College degree Urban Unmarried men,Black people,Black,Nothing in particular,95.51327806,71.69000582,0.693314757,74.9649008,16.04997635,0.046446856,Democratic,0.011628016,0.034818839
+Nothing in particular Black Straight No degree Urban Married men,Black people,Black,Nothing in particular,94.81707796,91.23046335,0.673509187,80.48006074,2.672784082,0.046108303,Democratic,0.009000313,0.03710799
+Evangelical Other race Straight No degree Suburban Unmarried women,Mosaic middle,Other race,Evangelical,94.56192415,35.99894052,0.549840571,44.76854613,4.02987724,0.045984225,Mixed,0.025397756,0.020586469
+Atheist White LGBTQ No degree Urban Unmarried women,Secular,White,Atheist,94.0598565,96.45364024,0.835560442,90.64943498,2.473396038,0.045740076,Democratic,0.004276956,0.04146312
+Evangelical Hispanic Straight College degree Suburban Unmarried women,Mosaic middle,Hispanic,Evangelical,93.43294727,39.71505601,0.604852111,45.41822746,9.004562361,0.045435218,Mixed,0.024799347,0.020635871
+Protestant Black Straight College degree Suburban Married men,Black people,Black,Protestant,93.43263858,76.09531979,0.718832586,82.80895863,15.73562289,0.045435068,Democratic,0.007810761,0.037624307
+Protestant Black Straight No degree Rural Married women,Black people,Black,Protestant,93.20734551,89.81388087,0.699266875,91.38179254,4.696264151,0.045325511,Democratic,0.003906247,0.041419264
+Jewish White Straight No degree Urban Unmarried men,Mosaic middle,White,Jewish,92.86646693,58.20578251,0.628175555,53.37533154,5.169801688,0.045159746,Mixed,0.021055582,0.024104164

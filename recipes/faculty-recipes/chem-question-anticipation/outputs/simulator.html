@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chem 301 — Student Simulator</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5b5b5b; --line:#e3ddd2; --bg:#faf7f1; --accent:#7a3b2e; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+         color:var(--ink); background:var(--bg); }
+  .wrap { max-width:760px; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  header { border-bottom:2px solid var(--accent); padding-bottom:1rem; margin-bottom:1.75rem; }
+  .kicker { letter-spacing:.12em; text-transform:uppercase; font-size:.72rem; color:var(--accent); font-weight:700; }
+  h1 { font-size:1.9rem; margin:.3rem 0 .4rem; }
+  .lede { color:var(--muted); font-size:1.05rem; margin:0; }
+  h2 { font-size:1.15rem; margin:2rem 0 .6rem; border-left:4px solid var(--accent); padding-left:.6rem; }
+  ol.steps { padding-left:1.2rem; }
+  ol.steps li { margin:.5rem 0; }
+  .personas { display:grid; gap:.9rem; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:1rem 1.1rem; }
+  .card h3 { margin:0 0 .15rem; font-size:1.02rem; }
+  .tag { display:inline-block; font-size:.7rem; letter-spacing:.05em; text-transform:uppercase;
+         color:var(--accent); border:1px solid var(--accent); border-radius:999px; padding:.05rem .55rem; margin-left:.4rem; vertical-align:middle; }
+  .card p { margin:.35rem 0 0; color:var(--muted); font-size:.93rem; }
+  .card .mis { color:var(--ink); }
+  code { background:#efe9df; padding:.08rem .35rem; border-radius:4px; font-size:.88em; }
+  footer { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Chem 301 · Pedagogy Seminar</div>
+    <h1>Student Simulator</h1>
+    <p class="lede">Rehearse your microteaching mini-lesson against a simulated
+    intro-chem student before you face a real one.</p>
+  </header>
+
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li>Have your mini-lesson ready (outline or full plan).</li>
+    <li>Pick a student persona below.</li>
+    <li>Open the system prompt <code>prompts/01-student-simulator.md</code>, paste in
+        your lesson and the chosen persona, set the intensity, and start teaching.</li>
+    <li>The simulated student stays in character and questions you for ~6–8 exchanges.
+        Type <code>DEBRIEF</code> when you're done.</li>
+    <li>Run <code>prompts/02-debrief.md</code> for coaching feedback.</li>
+    <li><strong>Hand in:</strong> your saved chat transcript + your lesson plan.</li>
+  </ol>
+
+  <h2>Choose a student</h2>
+  <div class="personas">
+    <div class="card">
+      <h3>Priya <span class="tag">over-confident</span></h3>
+      <p class="mis"><strong>Misconception:</strong> "strong acid" means concentrated /
+      automatically lowest pH; conflates extent of dissociation with amount.</p>
+      <p>Sounds competent and agrees too fast — punishes a TF who races. Asserts wrong rules confidently.</p>
+    </div>
+    <div class="card">
+      <h3>Marcus <span class="tag">anxious / careful</span></h3>
+      <p class="mis"><strong>Misconception:</strong> pH 7 always = neutral/safe; acid + base
+      always "cancel" to 7. Needs concrete mental models.</p>
+      <p>Slow, foundational, hedges. Exposes hidden assumptions — good for a first rehearsal.</p>
+    </div>
+    <div class="card">
+      <h3>Dana <span class="tag">concept-confuser</span></h3>
+      <p class="mis"><strong>Misconception:</strong> big K = fast reaction; equilibrium =
+      "equal amounts"; mixes Le Chatelier shift with a change in K.</p>
+      <p>Builds plausible-but-wrong syntheses. Tests whether you catch the buried error.</p>
+    </div>
+    <div class="card">
+      <h3>Sam <span class="tag">skeptic · advanced</span></h3>
+      <p class="mis"><strong>Misconception:</strong> the ICE-table math is a meaningless
+      ritual; "assume x is small" feels like cheating. Doubts why the topic matters.</p>
+      <p>Direct, math-comfortable, disengages at hand-waving. A harder run.</p>
+    </div>
+  </div>
+
+  <footer>
+    Demonstrative scaffold for the Summer of Claude faculty workshop · Bok Center, Learning Lab.
+    Personas and the sample lesson (strong vs. weak acids) are invented examples — see
+    <code>context/</code> for full profiles.
+  </footer>
+</div>
+</body>
+</html>

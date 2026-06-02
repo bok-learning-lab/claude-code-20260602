@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faculty project ideas — verbatim — Bok Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+/* Standalone "Deep thoughts" essay styling.
+   Mirrors components/essay-layout.module.css from
+   /Users/mk/Development/ai-enhancement-stories (screen + mobile + print)
+   with the TOC sidebar and footer-links stripped, plus a floating
+   Print/Copy-MD control pair in the header. Light-mode only. */
+
+:root {
+  --bg: rgb(240, 238, 230);
+  --fg: rgb(31, 30, 29);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Newsreader", "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 32px;
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.author-name {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.header-controls {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ctrl-btn {
+  background: none;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  font-family: "Newsreader", "Times New Roman", serif;
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.ctrl-btn:hover {
+  opacity: 1;
+}
+
+/* Layout */
+.essay-layout {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  gap: 64px;
+}
+
+/* Main content */
+.essay-content {
+  flex: 1;
+  max-width: 680px;
+}
+
+.essay-content h1 {
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0 0 12px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 0 12px 0;
+  opacity: 0.8;
+}
+
+.date {
+  font-size: 16px;
+  margin: 0 0 32px 0;
+  opacity: 0.6;
+}
+
+.essay-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 48px 0 16px 0;
+  line-height: 1.3;
+}
+
+.essay-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 36px 0 12px 0;
+  line-height: 1.3;
+}
+
+.essay-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 32px 0 12px 0;
+  line-height: 1.3;
+  font-style: italic;
+}
+
+.essay-content p {
+  margin: 0 0 20px 0;
+}
+
+.essay-content em {
+  font-style: italic;
+}
+
+.essay-content strong {
+  font-weight: 600;
+}
+
+.essay-content ul,
+.essay-content ol {
+  margin: 0 0 20px 0;
+  padding-left: 24px;
+}
+
+.essay-content li {
+  margin-bottom: 8px;
+}
+
+.essay-content blockquote {
+  border-left: 3px solid var(--fg);
+  margin: 24px 0;
+  padding: 0 0 0 20px;
+  opacity: 0.85;
+}
+
+.essay-content a {
+  color: var(--fg);
+  text-decoration: underline;
+}
+
+.essay-content hr {
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  margin: 40px 0;
+}
+
+.essay-content pre {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 16px 20px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+.essay-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.essay-content :not(pre) > code {
+  background: rgba(0, 0, 0, 0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.essay-content table {
+  border-collapse: collapse;
+  margin: 0 0 20px 0;
+  width: 100%;
+  font-size: 17px;
+}
+
+.essay-content th,
+.essay-content td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.essay-content th {
+  font-weight: 600;
+}
+
+.footnotes {
+  font-size: 16px;
+  opacity: 0.85;
+  margin-top: 32px;
+}
+
+.footnotes li {
+  margin-bottom: 6px;
+}
+
+/* Mobile */
+@media (max-width: 860px) {
+  .essay-layout {
+    padding: 32px 20px;
+    gap: 0;
+  }
+
+  .essay-content {
+    max-width: 100%;
+  }
+
+  .essay-content h1 {
+    font-size: 36px;
+  }
+
+  .site-header {
+    padding: 16px 20px;
+  }
+
+  .header-controls {
+    right: 20px;
+    gap: 10px;
+  }
+}
+
+/* Print */
+@media print {
+  @page {
+    margin: 0.75in;
+  }
+
+  body {
+    background: none;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.45;
+    min-height: 0;
+  }
+
+  .site-header,
+  .header-controls {
+    display: none !important;
+  }
+
+  .essay-layout {
+    display: block;
+    max-width: none;
+    padding: 0;
+    gap: 0;
+  }
+
+  .essay-content {
+    max-width: 6.5in;
+    margin: 0 auto;
+  }
+
+  .essay-content h1 {
+    font-size: 22pt;
+    line-height: 1.15;
+    margin: 0 0 6pt 0;
+  }
+
+  .subtitle {
+    font-size: 12pt;
+    margin: 0 0 6pt 0;
+    opacity: 1;
+  }
+
+  .date {
+    font-size: 10pt;
+    margin: 0 0 18pt 0;
+    opacity: 1;
+  }
+
+  .essay-content h2 {
+    font-size: 16pt;
+    margin: 20pt 0 6pt 0;
+    line-height: 1.25;
+    break-after: avoid;
+    page-break-after: avoid;
+    break-before: auto;
+  }
+
+  .essay-content h3 {
+    font-size: 13pt;
+    margin: 16pt 0 4pt 0;
+    line-height: 1.25;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .essay-content h4 {
+    font-size: 12pt;
+    margin: 14pt 0 4pt 0;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .essay-content p {
+    margin: 0 0 8pt 0;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .essay-content ul,
+  .essay-content ol {
+    margin: 0 0 8pt 0;
+  }
+
+  .essay-content li {
+    margin-bottom: 3pt;
+  }
+
+  .essay-content blockquote {
+    margin: 10pt 0;
+    padding-left: 14pt;
+    border-left-color: #000;
+    opacity: 1;
+  }
+
+  .essay-content hr {
+    margin: 18pt 0;
+  }
+
+  .essay-content a {
+    color: #000;
+  }
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <span class="author-name">Bok Center</span>
+    <div class="header-controls">
+      <button type="button" class="ctrl-btn" id="print-btn">Print</button>
+      <button type="button" class="ctrl-btn" id="copy-btn">Copy MD</button>
+    </div>
+  </header>
+
+  <main class="essay-layout">
+    <article class="essay-content">
+      <h1>Faculty project ideas — verbatim</h1>
+
+      <p>All six Day-1 faculty ideas, transcribed exactly as written on the handwritten "project as recipe" cards or sent by email. Faculty who emailed are reduced to initials; nothing else in the wording is changed. Editorial marks: <code>^word</code> = inserted above the line with a caret · <code>~~word~~</code> = struck through · <code>[margin: …]</code> = written in the margin.</p>
+
+      <hr>
+
+      <h2>1. Grading on Student Feedback of Student Creative Work</h2>
+
+      <p><em>Source: handwritten recipe card.</em></p>
+
+      <p><strong>Name your recipe:</strong><br>
+      Grading on Student Feedback ^of Student Creative Work</p>
+
+      <p><strong>Ingredients — your inputs:</strong></p>
+
+      <ul>
+        <li>Syllabus</li>
+        <li>Grading Rubric for Feedback</li>
+        <li>Feed back (Handwritten intent notes, end-of summary ^comments <s>comments</s>  [margin: comments based on Student Questions vs. response]</li>
+        <li>Student Work</li>
+      </ul>
+
+      <p><strong>Instructions — prompts, skills, scripts, tools:</strong><br>
+      [margin: Prompt] Grade and ascribe ^short rationale for grade.</p>
+
+      <p><strong>Serving — your output:</strong><br>
+      Grades of Student Feedback</p>
+
+      <hr>
+
+      <h2>2. Anticipating Student Questions in Chemistry</h2>
+
+      <p><em>Source: handwritten recipe card.</em></p>
+
+      <p><strong>Name your recipe:</strong><br>
+      <u>Anticipating</u> Student Questions in Chemistry</p>
+
+      <p><strong>Ingredients — your inputs:</strong></p>
+
+      <ul>
+        <li>Corpus of student questions from prior years in PS11 (compiled from TFs)</li>
+        <li>Microteaching questions</li>
+        <li>Past student work?</li>
+      </ul>
+
+      <p>[margin: OR: have a few scenarios of student confusion for the TFs to work through (much like Rhonda Bondie)]</p>
+
+      <p><strong>Instructions — prompts, skills, scripts, tools:</strong><br>
+      <s>[illegible — struck through]</s> HTML site? Or just a custom chatbot?</p>
+
+      <p><strong>Serving — your output:</strong><br>
+      For use by grad students in Chem 301 (pedagogy seminar). GIs upload their microteaching question and get asked questions by "students" to help them prep their lesson, and improve their ability to anticipate student questions. Students upload log of their chat alongside their lesson plan.</p>
+
+      <hr>
+
+      <h2>3. Chem 27 — Fatty Acid Synthase Structure Cartoon</h2>
+
+      <p><em>Source: handwritten recipe card.</em></p>
+
+      <p><strong>Name your recipe:</strong><br>
+      Chem 27 Fatty Acid Synthase [to the right: Structure Cartoon]</p>
+
+      <p><strong>Ingredients — your inputs:</strong></p>
+
+      <ul>
+        <li>Lecture files on fatty acid synthesis</li>
+        <li>Picture of original cartoon I want to replace</li>
+      </ul>
+
+      <p><strong>Instructions — prompts, skills, scripts, tools:</strong></p>
+
+      <ul>
+        <li>Produce a new cartoon showing all domains in the fatty acid synthase enzyme, but use the original image as a template</li>
+        <li>Include the termination domain which is currently absent in the current cartoon</li>
+        <li>Include labels for all domains</li>
+      </ul>
+
+      <p><strong>Serving — your output:</strong></p>
+
+      <ul>
+        <li>Picture file at a moderate resolution that I can paste into powerpoint</li>
+      </ul>
+
+      <hr>
+
+      <h2>4. Election hexagon mosaic</h2>
+
+      <p><em>Source: handwritten recipe card.</em></p>
+
+      <p><strong>Name your recipe:</strong><br>
+      <em>(left blank — a few words written then struck through)</em></p>
+
+      <p><strong>Ingredients — your inputs:</strong><br>
+      <s>[illegible — struck through]</s> Tiles.CSV</p>
+
+      <p><strong>Instructions — prompts, skills, scripts, tools:</strong><br>
+      Make an artifact that is a mosaic in which each tile is a hexagon. The size of the hexagon is the size of the group. Each tile is shaded according to the % Democratic, with less Democratic being lighter and more Democratic Darker.</p>
+
+      <p><strong>Serving — your output:</strong><br>
+      An html<br>
+      An image in .JPG or .PNF</p>
+
+      <p><em>(".PNF" as written — almost certainly intended as .PNG.)</em></p>
+
+      <hr>
+
+      <h2>5. Cognition-informed study-skill guides (JG)</h2>
+
+      <p><em>Source: email sent in lieu of a recipe card. Name and signature reduced to initials; the rest of the message is verbatim.</em></p>
+
+      <blockquote>
+        <p>Hi Marlon and Jordan,<br>
+        Thanks for letting me email my recipe idea to you. Here it is…</p>
+        <p>Recipe Name:<br>
+        Cognition-informed study-skill guides</p>
+        <p>Ingredients:<br>
+        [These are examples; other sources could be used]<br>
+        How People Learn: Brain, Mind, Experience, and School (NRC, 2000) https://www.nationalacademies.org/read/9853/chapter/1 , especially Chapters 2 and 3<br>
+        Susan A. Ambrose et al.  How Learning Works: Seven Research-Based Principles for Smart Teaching https://ebookcentral-proquest-com.ezp-prod1.hul.harvard.edu/lib/harvard-ebooks/detail.action?docID=529947<br>
+        Edward Redish (2002). Teaching Physics with the Physics Suite  https://web.archive.org/web/20160321020443/http://www2.physics.umd.edu/~redish/Book/, especially Chapters 2 and 3, and somewhat also Chapters 6, 7, 8<br>
+        https://tophat.com/blog/blooms-taxonomy/<br>
+        Mayer, R. E. (1992). Cognition and instruction: Their historic meeting within educational psychology. Journal of Educational Psychology, 84(4), 405–412 https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-0663.84.4.405 (I'm digging for a current link, probably in Hollis)</p>
+        <p>Instructions:<br>
+        From a viewpoint of undergraduate-student learning and cognition, summarize the important information and guidance on student learning and study skills for students. Include the historical progression of such guidance, although that is not the primary aspect to focus on.</p>
+        <p>Serving:<br>
+        Two parallel guides in the form of a blog post or series of blog posts: one for students to help them learn about their own learning, and one for teachers, tutors, etc., who are coaching students on learning and study skills.  Cite/attribute sources appropriately.</p>
+        <p>And thanks for putting on this workshop!<br>
+        — JG</p>
+      </blockquote>
+
+      <hr>
+
+      <h2>6. Slide-deck explorer (JB)</h2>
+
+      <p><em>Source: email sent in lieu of a recipe card. Name, addresses, and signature reduced to initials; the title/link of the specific paper JB shared is redacted (it identifies the author). The rest of the message is verbatim.</em></p>
+
+      <blockquote>
+        <p>Dear Marlon and Madeleine,</p>
+        <p>Thanks very much today's session. I was the person who left the room immediately after we wrapped up, and I just wanted to say that my departure was entirely due to scheduling and not to lack of interest. I didn't hand over the recipe sheet, so I wanted to at least say something to you by email that might contribute to your end of learning what kinds of projects the participants have in mind.</p>
+        <p>The truth is that in large part I don't know what kinds of outputs I should be thinking about and am looking forward to using the week to broaden my horizons. I am a philosopher and spend most of my time doing fairly traditional humanistic-scholarship things - reading texts, thinking about them, writing articles (primarily for other scholars), teaching classes with a heavy focus on close analysis and argumentation, etc. I don't use empirical methods and typically am not in the business of producing flashy outputs.</p>
+        <p>One thing that comes to mind is that I despise creating slide decks from scratch - I just never came to find that kind of labor enjoyable. I've recently done some presentations for which it was more or less necessary, and I'd be interested to know whether Cowork is a useful tool for creating that kind of artifact.</p>
+        <p>Marlon, you asked for people to volunteer recent papers, etc. I don't know what you would do with it, but I don't mind sharing. Here's a recent paper:  [paper title + link redacted for anonymization — a recent article of JB's on the ethics of automated decision-making]</p>
+        <p>OK, this email is probably a bit unstructured, but I have to jet to help out at my kid's daycare (hence my quick exit), so I'm going to avoid letting the perfect be the enemy of the good and just hit send . . .</p>
+        <p>All the best,<br>
+        — JB</p>
+      </blockquote>
+    </article>
+  </main>
+
+  <script type="text/x-markdown-source" id="source-md"># Faculty project ideas — verbatim
+
+All six Day-1 faculty ideas, transcribed exactly as written on the handwritten
+"project as recipe" cards or sent by email. Faculty who emailed are reduced to
+initials; nothing else in the wording is changed. Editorial marks: `^word` =
+inserted above the line with a caret · `~~word~~` = struck through ·
+`[margin: …]` = written in the margin.
+
+---
+
+## 1. Grading on Student Feedback of Student Creative Work
+
+*Source: handwritten recipe card.*
+
+**Name your recipe:**
+Grading on Student Feedback ^of Student Creative Work
+
+**Ingredients — your inputs:**
+- Syllabus
+- Grading Rubric for Feedback
+- Feed back (Handwritten intent notes, end-of summary ^comments ~~comments~~  [margin: comments based on Student Questions vs. response]
+- Student Work
+
+**Instructions — prompts, skills, scripts, tools:**
+[margin: Prompt] Grade and ascribe ^short rationale for grade.
+
+**Serving — your output:**
+Grades of Student Feedback
+
+---
+
+## 2. Anticipating Student Questions in Chemistry
+
+*Source: handwritten recipe card.*
+
+**Name your recipe:**
+<u>Anticipating</u> Student Questions in Chemistry
+
+**Ingredients — your inputs:**
+- Corpus of student questions from prior years in PS11 (compiled from TFs)
+- Microteaching questions
+- Past student work?
+
+[margin: OR: have a few scenarios of student confusion for the TFs to work through (much like Rhonda Bondie)]
+
+**Instructions — prompts, skills, scripts, tools:**
+~~[illegible — struck through]~~ HTML site? Or just a custom chatbot?
+
+**Serving — your output:**
+For use by grad students in Chem 301 (pedagogy seminar). GIs upload their
+microteaching question and get asked questions by "students" to help them prep
+their lesson, and improve their ability to anticipate student questions. Students
+upload log of their chat alongside their lesson plan.
+
+---
+
+## 3. Chem 27 — Fatty Acid Synthase Structure Cartoon
+
+*Source: handwritten recipe card.*
+
+**Name your recipe:**
+Chem 27 Fatty Acid Synthase [to the right: Structure Cartoon]
+
+**Ingredients — your inputs:**
+- Lecture files on fatty acid synthesis
+- Picture of original cartoon I want to replace
+
+**Instructions — prompts, skills, scripts, tools:**
+- Produce a new cartoon showing all domains in the fatty acid synthase enzyme, but use the original image as a template
+- Include the termination domain which is currently absent in the current cartoon
+- Include labels for all domains
+
+**Serving — your output:**
+- Picture file at a moderate resolution that I can paste into powerpoint
+
+---
+
+## 4. Election hexagon mosaic
+
+*Source: handwritten recipe card.*
+
+**Name your recipe:**
+*(left blank — a few words written then struck through)*
+
+**Ingredients — your inputs:**
+~~[illegible — struck through]~~ Tiles.CSV
+
+**Instructions — prompts, skills, scripts, tools:**
+Make an artifact that is a mosaic in which each tile is a hexagon. The size of
+the hexagon is the size of the group. Each tile is shaded according to the %
+Democratic, with less Democratic being lighter and more Democratic Darker.
+
+**Serving — your output:**
+An html
+An image in .JPG or .PNF
+
+*(".PNF" as written — almost certainly intended as .PNG.)*
+
+---
+
+## 5. Cognition-informed study-skill guides (JG)
+
+*Source: email sent in lieu of a recipe card. Name and signature reduced to
+initials; the rest of the message is verbatim.*
+
+> Hi Marlon and Jordan,
+> Thanks for letting me email my recipe idea to you. Here it is…
+>
+> Recipe Name:
+> Cognition-informed study-skill guides
+>
+> Ingredients:
+> [These are examples; other sources could be used]
+> How People Learn: Brain, Mind, Experience, and School (NRC, 2000) https://www.nationalacademies.org/read/9853/chapter/1 , especially Chapters 2 and 3
+> Susan A. Ambrose et al.  How Learning Works: Seven Research-Based Principles for Smart Teaching https://ebookcentral-proquest-com.ezp-prod1.hul.harvard.edu/lib/harvard-ebooks/detail.action?docID=529947
+> Edward Redish (2002). Teaching Physics with the Physics Suite  https://web.archive.org/web/20160321020443/http://www2.physics.umd.edu/~redish/Book/, especially Chapters 2 and 3, and somewhat also Chapters 6, 7, 8
+> https://tophat.com/blog/blooms-taxonomy/
+> Mayer, R. E. (1992). Cognition and instruction: Their historic meeting within educational psychology. Journal of Educational Psychology, 84(4), 405–412 https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-0663.84.4.405 (I'm digging for a current link, probably in Hollis)
+>
+> Instructions:
+> From a viewpoint of undergraduate-student learning and cognition, summarize the important information and guidance on student learning and study skills for students. Include the historical progression of such guidance, although that is not the primary aspect to focus on.
+>
+> Serving:
+> Two parallel guides in the form of a blog post or series of blog posts: one for students to help them learn about their own learning, and one for teachers, tutors, etc., who are coaching students on learning and study skills.  Cite/attribute sources appropriately.
+>
+> And thanks for putting on this workshop!
+> — JG
+
+---
+
+## 6. Slide-deck explorer (JB)
+
+*Source: email sent in lieu of a recipe card. Name, addresses, and signature
+reduced to initials; the title/link of the specific paper JB shared is redacted
+(it identifies the author). The rest of the message is verbatim.*
+
+> Dear Marlon and Madeleine,
+>
+> Thanks very much today's session. I was the person who left the room immediately after we wrapped up, and I just wanted to say that my departure was entirely due to scheduling and not to lack of interest. I didn't hand over the recipe sheet, so I wanted to at least say something to you by email that might contribute to your end of learning what kinds of projects the participants have in mind.
+>
+> The truth is that in large part I don't know what kinds of outputs I should be thinking about and am looking forward to using the week to broaden my horizons. I am a philosopher and spend most of my time doing fairly traditional humanistic-scholarship things - reading texts, thinking about them, writing articles (primarily for other scholars), teaching classes with a heavy focus on close analysis and argumentation, etc. I don't use empirical methods and typically am not in the business of producing flashy outputs.
+>
+> One thing that comes to mind is that I despise creating slide decks from scratch - I just never came to find that kind of labor enjoyable. I've recently done some presentations for which it was more or less necessary, and I'd be interested to know whether Cowork is a useful tool for creating that kind of artifact.
+>
+> Marlon, you asked for people to volunteer recent papers, etc. I don't know what you would do with it, but I don't mind sharing. Here's a recent paper:  [paper title + link redacted for anonymization — a recent article of JB's on the ethics of automated decision-making]
+>
+> OK, this email is probably a bit unstructured, but I have to jet to help out at my kid's daycare (hence my quick exit), so I'm going to avoid letting the perfect be the enemy of the good and just hit send . . .
+>
+> All the best,
+> — JB</script>
+
+  <script>
+    (function () {
+      var copyBtn = document.getElementById('copy-btn');
+      var printBtn = document.getElementById('print-btn');
+      var src = document.getElementById('source-md');
+
+      printBtn.addEventListener('click', function () {
+        window.print();
+      });
+
+      copyBtn.addEventListener('click', function () {
+        var text = src.textContent;
+        var done = function () {
+          var prev = copyBtn.textContent;
+          copyBtn.textContent = 'Copied';
+          setTimeout(function () { copyBtn.textContent = prev === 'Copied' ? 'Copy MD' : prev; }, 2000);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, function () {
+            fallbackCopy(text); done();
+          });
+        } else {
+          fallbackCopy(text); done();
+        }
+      });
+
+      function fallbackCopy(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+    })();
+  </script>
+</body>
+</html>

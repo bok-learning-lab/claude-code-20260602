@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Election Hexagon Mosaic</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --ink: #1d2330;
+    --muted: #6b7280;
+    --line: #e4e7ec;
+    --hue: 222;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 24px 56px;
+  }
+  header h1 {
+    font-size: 26px;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  header p.sub {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(16,24,40,.04), 0 8px 24px rgba(16,24,40,.05);
+    padding: 20px;
+  }
+  #stage { display: block; width: 100%; height: auto; }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: flex-end;
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+  .legend h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--muted);
+    margin: 0 0 8px;
+    font-weight: 600;
+  }
+  .ramp { display: flex; align-items: center; gap: 8px; }
+  .ramp-bar {
+    width: 220px; height: 14px; border-radius: 7px;
+    border: 1px solid var(--line);
+  }
+  .ramp-scale {
+    display: flex; justify-content: space-between;
+    width: 220px; font-size: 11px; color: var(--muted); margin-top: 4px;
+  }
+  .sizes { display: flex; align-items: flex-end; gap: 16px; }
+  .size-item { text-align: center; font-size: 11px; color: var(--muted); }
+  .size-item svg { display: block; margin: 0 auto 4px; }
+  .footnote { margin-top: 18px; font-size: 12px; color: var(--muted); }
+  .hex { stroke: rgba(16,24,40,.16); stroke-width: 1; transition: filter .12s ease; cursor: default; }
+  .hex:hover { filter: brightness(1.06) drop-shadow(0 2px 6px rgba(16,24,40,.25)); }
+  #tip {
+    position: fixed; pointer-events: none; z-index: 10;
+    background: #1d2330; color: #fff; padding: 7px 10px;
+    border-radius: 8px; font-size: 12px; line-height: 1.35;
+    box-shadow: 0 6px 18px rgba(0,0,0,.25); opacity: 0; transform: translateY(2px);
+    transition: opacity .1s ease; white-space: nowrap;
+  }
+  #tip b { font-size: 12.5px; }
+  #tip .row { color: #c9cdd6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">Election Hexagon Mosaic</h1>
+    <p class="sub">Each hexagon is a group. <b>Area</b> encodes group size; <b>fill darkness</b> encodes % Democratic (lighter = less, darker = more). Sample data &mdash; swap in your own <code>Tiles.csv</code>.</p>
+  </header>
+
+  <div class="card">
+    <svg id="stage" xmlns="http://www.w3.org/2000/svg"></svg>
+
+    <div class="legend">
+      <div>
+        <h3>% Democratic</h3>
+        <div class="ramp">
+          <div class="ramp-bar" id="rampBar"></div>
+        </div>
+        <div class="ramp-scale"><span>0%</span><span>50%</span><span>100%</span></div>
+      </div>
+      <div>
+        <h3>Group size (area &prop; size)</h3>
+        <div class="sizes" id="sizeLegend"></div>
+      </div>
+    </div>
+    <div class="footnote" id="foot"></div>
+  </div>
+</div>
+<div id="tip"></div>
+
+<script>
+/* ------------------------------------------------------------------ *
+ * Election Hexagon Mosaic
+ * Self-contained: no libraries, no network. Open directly in a browser.
+ *
+ * Encodings:
+ *   size    -> hexagon AREA  (radius = Rmax * sqrt(size / sizeMax))
+ *   pct_dem -> fill darkness (lightness ramp within one blue hue)
+ * ------------------------------------------------------------------ */
+
+/* --- Data: inlined from context/Tiles.csv so it renders from file:// --- */
+const DATA = [
+  { group: "Riverside Precinct 1",  size: 4200, pct_dem: 71 },
+  { group: "Riverside Precinct 2",  size: 3850, pct_dem: 64 },
+  { group: "Oakdale Ward A",        size: 2600, pct_dem: 58 },
+  { group: "Oakdale Ward B",        size: 1900, pct_dem: 49 },
+  { group: "Maple Heights",         size: 5100, pct_dem: 82 },
+  { group: "Maple Heights South",   size: 3300, pct_dem: 77 },
+  { group: "Lakeshore District",    size: 4750, pct_dem: 68 },
+  { group: "Lakeshore West",        size: 2100, pct_dem: 55 },
+  { group: "Hillcrest Township",    size: 1450, pct_dem: 38 },
+  { group: "Hillcrest North",       size: 980,  pct_dem: 31 },
+  { group: "Cedar Flats",           size: 3120, pct_dem: 46 },
+  { group: "Cedar Flats East",      size: 2740, pct_dem: 52 },
+  { group: "Pinewood Precinct",     size: 5600, pct_dem: 88 },
+  { group: "Pinewood Annex",        size: 1230, pct_dem: 79 },
+  { group: "Greenfield Ward 3",     size: 2980, pct_dem: 61 },
+  { group: "Greenfield Ward 4",     size: 2240, pct_dem: 44 },
+  { group: "Stonebridge District",  size: 3670, pct_dem: 35 },
+  { group: "Stonebridge Mill",      size: 1560, pct_dem: 29 },
+  { group: "Harborview Precinct",   size: 4410, pct_dem: 74 },
+  { group: "Harborview Docks",      size: 860,  pct_dem: 66 },
+  { group: "Westgate Township",     size: 2530, pct_dem: 41 },
+  { group: "Sunnyvale Ward 7",      size: 3990, pct_dem: 57 },
+  { group: "Sunnyvale Ward 8",      size: 1780, pct_dem: 48 },
+  { group: "Fairmont Crossing",     size: 2310, pct_dem: 53 },
+];
+
+const TITLE = "Election Hexagon Mosaic";
+
+/* --- Color: pct_dem -> lightness within one hue. ---
+ * 0% dem -> light (L 96%), 100% dem -> dark (L 24%). */
+const HUE = 222, SAT = 70, L0 = 96, L100 = 24;
+function fillFor(pct) {
+  const t = Math.max(0, Math.min(100, pct)) / 100;
+  const L = L0 + (L100 - L0) * t;          // linear lightness ramp
+  return `hsl(${HUE} ${SAT}% ${L}%)`;
+}
+
+/* --- Geometry: regular pointy-top hexagon centered at (cx,cy). ---
+ * Vertices at 60-deg steps, offset 30deg so a vertex points up.
+ * Area = (3*sqrt(3)/2) * r^2, so area scales with r^2 -> r ~ sqrt(size). */
+function hexPoints(cx, cy, r) {
+  const pts = [];
+  for (let i = 0; i < 6; i++) {
+    const a = Math.PI / 180 * (60 * i - 30); // -30 => pointy top
+    pts.push([cx + r * Math.cos(a), cy + r * Math.sin(a)]);
+  }
+  return pts.map(p => p[0].toFixed(2) + "," + p[1].toFixed(2)).join(" ");
+}
+
+/* --- Layout: pointy-top offset (honeycomb) grid on a fixed pitch. --- */
+const SVG_NS = "http://www.w3.org/2000/svg";
+const Rmax = 46;            // radius of the largest hex (px)
+const Rmin = 9;             // min radius so tiny groups stay visible
+const PAD  = 16;            // padding around the mosaic
+
+function render() {
+  const stage = document.getElementById("stage");
+  document.getElementById("title").textContent = TITLE;
+  document.title = TITLE;
+
+  const sizeMax = Math.max(...DATA.map(d => d.size));
+
+  // radius by AREA: r = Rmax * sqrt(size/sizeMax), clamped to Rmin.
+  const radii = DATA.map(d => Math.max(Rmin, Rmax * Math.sqrt(d.size / sizeMax)));
+
+  // grid cell pitch sized for the largest hex (pointy-top).
+  // pointy-top hex: width = sqrt(3)*r, height = 2*r.
+  const cellW = Math.sqrt(3) * Rmax * 1.06;   // horizontal pitch + a little air
+  const cellH = 1.5 * Rmax * 1.06;            // vertical pitch (rows overlap by 1/4 height)
+
+  const n = DATA.length;
+  const cols = Math.max(1, Math.round(Math.sqrt(n * 1.35))); // roughly square-ish, slightly wide
+  const rows = Math.ceil(n / cols);
+
+  const positions = DATA.map((d, i) => {
+    const row = Math.floor(i / cols);
+    const col = i % cols;
+    const x = PAD + cellW * (col + 0.5) + (row % 2 ? cellW / 2 : 0);
+    const y = PAD + cellH * (row + 0.5) + Rmax; // +Rmax so top row isn't clipped
+    return { x, y };
+  });
+
+  const widthPx  = PAD * 2 + cellW * (cols + 0.5);
+  const heightPx = PAD * 2 + cellH * rows + Rmax * 1.2;
+
+  stage.setAttribute("viewBox", `0 0 ${widthPx.toFixed(0)} ${heightPx.toFixed(0)}`);
+  stage.setAttribute("width", widthPx.toFixed(0));
+  stage.setAttribute("height", heightPx.toFixed(0));
+
+  // draw
+  let max = DATA[0], dark = DATA[0];
+  DATA.forEach((d, i) => {
+    if (d.size > max.size) max = d;
+    if (d.pct_dem > dark.pct_dem) dark = d;
+    const { x, y } = positions[i];
+    const r = radii[i];
+    const poly = document.createElementNS(SVG_NS, "polygon");
+    poly.setAttribute("points", hexPoints(x, y, r));
+    poly.setAttribute("fill", fillFor(d.pct_dem));
+    poly.setAttribute("class", "hex");
+    poly.dataset.group = d.group;
+    poly.dataset.size = d.size;
+    poly.dataset.pct = d.pct_dem;
+    stage.appendChild(poly);
+  });
+
+  buildLegend(sizeMax);
+  document.getElementById("foot").innerHTML =
+    `${n} groups &middot; largest: <b>${max.group}</b> (${max.size.toLocaleString()}) ` +
+    `&middot; most Democratic: <b>${dark.group}</b> (${dark.pct_dem}%)`;
+
+  attachTooltip(stage);
+}
+
+function buildLegend(sizeMax) {
+  // color ramp bar
+  const stops = [];
+  for (let p = 0; p <= 100; p += 10) stops.push(`${fillFor(p)} ${p}%`);
+  document.getElementById("rampBar").style.background =
+    `linear-gradient(90deg, ${stops.join(", ")})`;
+
+  // size swatches: show area-faithful hexes for a few reference sizes.
+  const refs = [
+    { label: sizeMax.toLocaleString(), size: sizeMax },
+    { label: Math.round(sizeMax / 2).toLocaleString(), size: sizeMax / 2 },
+    { label: Math.round(sizeMax / 6).toLocaleString(), size: sizeMax / 6 },
+  ];
+  const box = document.getElementById("sizeLegend");
+  refs.forEach(ref => {
+    const r = Math.max(Rmin, Rmax * Math.sqrt(ref.size / sizeMax)) * 0.55;
+    const dim = Rmax * 0.55 * 2 + 4;
+    const item = document.createElement("div");
+    item.className = "size-item";
+    item.innerHTML =
+      `<svg width="${dim}" height="${dim}" viewBox="0 0 ${dim} ${dim}">` +
+      `<polygon points="${hexPoints(dim/2, dim/2, r)}" fill="hsl(${HUE} 18% 70%)" ` +
+      `stroke="rgba(16,24,40,.2)"/></svg>${ref.label}`;
+    box.appendChild(item);
+  });
+}
+
+function attachTooltip(stage) {
+  const tip = document.getElementById("tip");
+  stage.addEventListener("mousemove", e => {
+    const t = e.target;
+    if (t && t.classList && t.classList.contains("hex")) {
+      tip.innerHTML =
+        `<b>${t.dataset.group}</b><br>` +
+        `<span class="row">size ${Number(t.dataset.size).toLocaleString()} ` +
+        `&middot; ${t.dataset.pct}% Dem</span>`;
+      tip.style.opacity = 1;
+      tip.style.left = (e.clientX + 14) + "px";
+      tip.style.top  = (e.clientY + 14) + "px";
+    } else {
+      tip.style.opacity = 0;
+    }
+  });
+  stage.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+}
+
+render();
+</script>
+</body>
+</html>
