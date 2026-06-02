@@ -42,10 +42,12 @@ notes and PDFs in **`context/research/`**.
 ## How to run it
 1. TF puts their mini-lesson in `context/sample-microteaching-lesson.md` (or supplies
    their own).
-2. Pick a persona + level from `context/personas/`.
-3. Run `prompts/01-student-simulator.md`, filling `{{lesson}}`, `{{persona}}`, and
-   `{{intensity}}`. Claude stays in character until the stop condition.
-4. Run `prompts/02-debrief.md` in the same chat — Claude steps out of character and
-   coaches the TF.
+2. Pick a persona + level from `context/personas/` (see its `README.md`).
+3. Start a chat with Claude: paste in the chosen persona file and your lesson, and ask
+   Claude to stay in character as that student — questioning your lesson and voicing the
+   misconception. Tell it how hard to push (gentle, moderate, or relentless). Claude
+   stays in character until you signal you're done (e.g. type `DEBRIEF`).
+4. Ask Claude to step out of character and debrief you — what you handled well, what
+   exposed a gap, and what to add to the lesson.
 5. Save the exchange to `outputs/`. **The Chem 301 deliverable is the transcript + the
    lesson plan.** A demonstrative run is in `outputs/sample-session-transcript.md`.

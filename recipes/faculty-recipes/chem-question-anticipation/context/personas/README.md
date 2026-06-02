@@ -59,5 +59,6 @@ personas/
    "plug-and-chug" unit → Procedure Follower.
 2. **Pick a level.** New TF or first rehearsal → Level 1. Experienced TF or a second
    pass → Level 2.
-3. Load the chosen file into the `{{persona}}` slot of
-   `../../prompts/01-student-simulator.md`.
+3. Paste the chosen persona file into a chat with Claude along with your lesson, and ask
+   it to stay in character as that student — setting how hard to push (gentle, moderate,
+   or relentless). When you're done, ask Claude to step out of character and debrief you.

@@ -17,11 +17,12 @@ rehearsal instead of live.
 1. TF writes or pastes a mini-lesson into `context/sample-microteaching-lesson.md`
    (or supplies their own).
 2. TF picks a persona + level from `context/personas/` (see its `README.md`).
-3. TF runs `prompts/01-student-simulator.md`, filling in the `{{lesson}}` and
-   `{{persona}}` placeholders. Claude stays in character as that student and asks
-   questions until the stop condition is met.
-4. TF runs `prompts/02-debrief.md`. Claude steps OUT of character and gives feedback:
-   what was handled well, what exposed gaps, what to add to the lesson.
+3. TF starts a chat: pastes in the chosen persona file and the lesson, and asks Claude
+   to stay in character as that student, setting how hard to push (gentle, moderate, or
+   relentless). Claude asks questions in character until the TF signals they're done
+   (e.g. by typing `DEBRIEF`).
+4. TF asks Claude to step OUT of character and give feedback: what was handled well,
+   what exposed gaps, what to add to the lesson.
 5. TF saves the full exchange to `outputs/` as their transcript. **The deliverable
    handed in for Chem 301 is the transcript + the lesson plan.**
 
@@ -37,8 +38,7 @@ context/
   sample-microteaching-lesson.md  <- an example TF mini-lesson (acid/base equilibria)
   question-bank-notes.md          <- common intro-chem confusions (the "prior-years" corpus)
 prompts/
-  01-student-simulator.md         <- system-prompt TEMPLATE: Claude becomes the student
-  02-debrief.md                   <- TEMPLATE: Claude steps out of character to coach the TF
+  prompt-summary.md               <- development summary: how the tool came together
 outputs/
   sample-session-transcript.md    <- a DEMONSTRATIVE sample run + debrief
   simulator.html                  <- optional static framing page (instructions + personas)

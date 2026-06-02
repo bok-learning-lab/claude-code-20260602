@@ -34,6 +34,8 @@ A literature search identified gaps and recommended additional sources, organize
 
 Reading priority recommended: Bhattacharyya & Bodner first (fills biggest content gap), then Talanquer (2014) for the cross-cutting framework, then Flynn & Featherstone for the PS11→organic transition, then Marbach-Ad et al. for the GTA training design.
 
+The core recommendations were subsequently folded in. The `research/` folder now holds **ten** source notes (each with its PDF): the original four plus Bhattacharyya & Bodner (2005), Cooper et al. (2016), Luxford et al. (2014), Talanquer (2014), Dorris et al. (2022), and Müller et al. (2024).
+
 ---
 
 ## Persona design decisions
@@ -80,7 +82,7 @@ Each failure mode is implemented at two levels:
 
 ## Implementation decisions
 
-**Delivery mechanism: Slack bots.** TFs upload a lesson plan to a Slack bot configured with a persona. The bot reads the lesson plan and generates in-character questions specific to that lesson's content — not generic chemistry questions, but questions a student with that failure mode would ask about what the TF is actually teaching. The TF responds; the conversation is logged and submitted to Chem 301.
+**Delivery mechanism: paste-in chat.** The persona files are written to be self-contained system prompts, so the workflow needs no separate wrapper. A TF pastes the chosen persona file and their lesson into a chat with Claude and asks it to stay in character; Claude generates in-character questions specific to that lesson's content — not generic chemistry questions, but questions a student with that failure mode would ask about what the TF is actually teaching. The TF responds; when done, they ask Claude to step out of character and debrief. The conversation is logged and submitted to Chem 301. (Packaging the same persona prompts behind a Slack bot remains a possible future convenience, but is not required to run the tool.)
 
 **Course scope.** An early version of the README specified PS11 (*Foundations and Frontiers of Modern Chemistry*) as the target course. This was walked back: the tool is designed for TFs across the department's undergraduate courses. PS11 is noted as the most likely initial source for a corpus of real student questions, not as the fixed scope.
 
@@ -91,29 +93,41 @@ Each failure mode is implemented at two levels:
 ```
 /
 ├── README.md                         ← project overview and folder guide
-├── prompt-summary.md                 ← this file
-├── project_as_recipe.md              ← original project sketch
-├── Chemistry Course Offerings.md     ← department course list (2026–27)
-│
-├── personas/
-│   ├── level1/                       ← 5 failure-mode personas, diagnostic
-│   └── level2/                       ← same 5 with social texture
-│
-└── [research notes]
-    ├── Nakhleh_1992.md
-    ├── Cracolice et al_2008.md
-    ├── Tümay_2016.md
-    └── Bain et al_2014.md
+├── context/
+│   ├── CLAUDE.md                     ← project memory
+│   ├── recipe-card-verbatim.md       ← transcription of the Day-1 recipe card
+│   ├── sample-microteaching-lesson.md← example TF mini-lesson (acid/base)
+│   ├── question-bank-notes.md        ← prior-years student-confusion corpus
+│   ├── personas/
+│   │   ├── README.md                 ← index, level explanation, how to pick
+│   │   ├── level1/                   ← 5 failure-mode personas, diagnostic
+│   │   └── level2/                   ← same 5 with social texture
+│   └── research/                     ← 10 CER source notes + pdf/
+│       ├── Nakhleh_1992.md
+│       ├── Cracolice et al_2008.md
+│       ├── Tümay_2016.md
+│       ├── Bain et al_2014.md
+│       ├── Bhattacharyya & Bodner_2005.md
+│       ├── Cooper et al_2016.md
+│       ├── Dorris et al_2022.md
+│       ├── Luxford et al_2014.md
+│       ├── Muller et al_2024.md
+│       └── Talanquer_2014.md
+├── prompts/
+│   └── prompt-summary.md             ← this file
+└── outputs/
+    ├── sample-session-transcript.md  ← demonstrative sample run + debrief
+    └── simulator.html                ← optional static framing page
 ```
 
 ---
 
 ## What comes next
 
-The three main pieces still to build, in rough order of dependency:
+The main pieces still to build, in rough order of dependency:
 
-1. **Slack bot system prompt template** — a wrapper that tells the bot how to ingest a lesson plan and generate in-character questions using a given persona. This is the bridge between the persona files and the actual tool.
+1. **Course-specific question banks** — example questions keyed to actual PS11 (and other course) topics, to supplement the research-derived examples already in the personas. Likely built from prior TF section notes and student question logs once those are assembled.
 
-2. **Course-specific question banks** — example questions keyed to actual PS11 (and other course) topics, to supplement the research-derived examples already in the personas. Likely built from prior TF section notes and student question logs once those are assembled.
+2. **Chem 301 debrief materials** — a rubric for reviewing submitted chat logs and a facilitation guide for introducing the tool in the seminar.
 
-3. **Chem 301 debrief materials** — a rubric for reviewing submitted chat logs and a facilitation guide for introducing the tool in the seminar.
+3. **Optional Slack packaging** — wrapping the existing persona prompts behind a Slack bot so TFs can rehearse without leaving Slack. A convenience layer, not a prerequisite: the paste-in chat workflow already runs the tool end to end.
