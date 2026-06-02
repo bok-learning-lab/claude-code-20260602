@@ -23,7 +23,9 @@ it happen ("reading file…", "running…"). The idea to hold onto: **Claude can
 not just talk — and acting is what makes it accurate and grounded.**
 
 This is also the foundation of an [agent](agent.md): an agent is largely Claude
-choosing and chaining tool calls toward a goal.
+choosing and chaining tool calls toward a goal. When *you* stage the steps instead
+of Claude, the same idea shows up as [prompt chaining](prompt-chaining.md) — each
+prompt can include the results of an earlier tool call.
 
 ## Why it matters in this workshop
 
@@ -36,3 +38,4 @@ the model is unreliable at some things *until* it can use tools. Tool calls are
 - [LLM](llm.md) — what tools compensate for
 - [Agent](agent.md) — tool calls chained toward a goal
 - [Context](context.md) — tool results come back *into* context
+- [Prompt Chaining](prompt-chaining.md) — staging tool results across steps

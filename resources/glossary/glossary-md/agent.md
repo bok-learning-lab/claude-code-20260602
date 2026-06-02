@@ -22,7 +22,12 @@ What makes this possible is the combination you've already met:
 
 For beginners the word matters less than the shift in expectation: Claude isn't only
 a question-answerer; it can carry out a multi-step task. Everything later in the
-series — research workflows, building small apps — is this idea scaled up.
+series — research workflows, building small apps, [agentic systems](agentic-systems.md)
+that compose several agents — is this idea scaled up.
+
+A subtle distinction worth holding: in [prompt chaining](prompt-chaining.md), *you*
+decide the next step; in an agent, *Claude* decides. The line between them isn't
+always sharp.
 
 ## Why it matters in this workshop
 
@@ -35,3 +40,5 @@ work." The skill of steering it well is, again, context engineering.
 - [Tool Call](tool-call.md) — the steps an agent takes
 - [Harness](harness.md) — the program that runs the agent loop
 - [Claude Code](claude-code.md) — an agent you'll actually use
+- [Agentic System](agentic-systems.md) — multiple agents organized together
+- [Prompt Chaining](prompt-chaining.md) — the human-driven cousin

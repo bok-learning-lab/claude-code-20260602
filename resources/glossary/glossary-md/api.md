@@ -20,6 +20,9 @@ the API to do the intro workshop. It matters because:
 - You'll see the word in documentation and later sessions.
 - It's where the series eventually goes — automating repetitive scholarly and
   teaching tasks, where you don't want to sit and chat through each one.
+- It's the door through which more elaborate setups —
+  [prompt chains](prompt-chaining.md), [agents](agent.md), full
+  [agentic systems](agentic-systems.md) — are actually built.
 
 The one idea to keep: *anything you can do by chatting, software can also do through
 the API* — which is what makes automation possible later.
@@ -34,3 +37,4 @@ intimidating when the advanced parts of the series build on it.
 - [Claude](claude.md) — the same assistant, reached a different way
 - [Anthropic](anthropic.md) — provides the API
 - [Model](model.md) — what you select when using the API
+- [Agentic System](agentic-systems.md) — what people build *through* the API

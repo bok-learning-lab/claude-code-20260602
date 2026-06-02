@@ -36,6 +36,7 @@ say why it matters here.
 | [Tool Call](tool-call.md) | When Claude *does* something (runs code, reads a file) instead of just talking. |
 | [Hallucination](hallucination.md) | A confident, fluent answer that is simply wrong. |
 | [Agent](agent.md) | Claude pursuing a goal over multiple steps. |
+| [Agentic System](agentic-systems.md) | One or more agents organized to do work together — including subagents and pipelines. |
 | [Harness](harness.md) | The program around Claude that runs the loop and its tools. |
 
 ## How Claude remembers (the context story)
@@ -57,6 +58,7 @@ Read these as a chain — each builds on the last.
 |---|---|
 | [Prompt](prompt.md) | What you send to Claude. |
 | [System Prompt](system-prompt.md) | Background instructions Claude has before you start typing. |
+| [Prompt Chaining](prompt-chaining.md) | Breaking one big task into a sequence of smaller, staged prompts. |
 
 ## Files, formats, and outputs
 
@@ -84,13 +86,15 @@ If introducing these in sequence rather than by lookup:
    [Context](context.md) → [Context Window](context-window.md) →
    [Context Rot](context-rot.md) → [Compact](compact.md) →
    [Context Engineering](context-engineering.md)
-3. [Prompt](prompt.md) → [System Prompt](system-prompt.md) → [Memory](memory.md) →
+3. [Prompt](prompt.md) → [System Prompt](system-prompt.md) →
+   [Prompt Chaining](prompt-chaining.md) → [Memory](memory.md) →
    [Data Classification](data-classification.md)
 4. [Artifact](artifact.md) → [HTML](html.md) → [Tool Call](tool-call.md) →
    [Claude Cowork](claude-cowork.md) → [Project](project.md) →
    [Claude Code](claude-code.md) → [CLAUDE.md](claude-md.md) →
    [SKILL.md](skill-md.md)
-5. [Agent](agent.md) → [Harness](harness.md) → [Model](model.md) → [API](api.md)
+5. [Agent](agent.md) → [Agentic System](agentic-systems.md) →
+   [Harness](harness.md) → [Model](model.md) → [API](api.md)
    *(forward-looking, for later in the series)*
 
 See also: [outline/00 — Overview](../outline/00-overview.md) ·
