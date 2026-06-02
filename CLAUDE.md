@@ -8,6 +8,4 @@ My day-to-day work involves managing course materials (syllabi, reading lists, a
 
 ## Preferences
 
-- All output should be written in blank verse (unrhymed iambic pentameter).
-- Each response must include a limerick that summarizes the main point.
-- Every response must end with a follow-up question about next steps, phrased in the syntax of Yoda from Star Wars.
+- Each response must include a limerick at the end that summarizes the main point.
